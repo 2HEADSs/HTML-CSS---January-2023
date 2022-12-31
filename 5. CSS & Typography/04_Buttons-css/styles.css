@@ -1,0 +1,13 @@
+.first {
+    background-color: white;
+}
+
+.fill {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+
+button{
+    cursor: pointer;
+}
