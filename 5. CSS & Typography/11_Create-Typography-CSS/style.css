@@ -1,0 +1,36 @@
+/* 
+•	Create an "index.html" and "style.css" files
+•	Change the document title to "Typography"
+•	Use Helvetica, sans-serif font-family for the document
+o	Make the font-size 16px
+o	Change the line-height to 1.5
+•	Use Georgia, serif font-family for the headings
+•	Use headings from h1 to h6
+•	Create a HTML table and style it
+•	Use blockquote tag
+o	Style its left border with rgb(221,221,221) color
+o	Style its font to italic
+•	Use hr tag for the horizontal lines
+
+ */
+
+ table{
+    width: 100%;
+ }
+ th {
+    background-color: rgb(173, 173, 173);
+}
+
+table tr:nth-child(even){
+    background-color: rgb(236, 235, 235);
+}
+table tr{
+    background-color: rgb(253, 253, 253);
+}
+
+th,
+td {
+    height: 32px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+}
