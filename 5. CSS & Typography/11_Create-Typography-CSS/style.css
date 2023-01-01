@@ -13,24 +13,50 @@ o	Style its font to italic
 •	Use hr tag for the horizontal lines
 
  */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
 
- table{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table {
     width: 100%;
- }
- th {
+
+}
+
+th {
     background-color: rgb(173, 173, 173);
 }
 
-table tr:nth-child(even){
+table tr:nth-child(even) {
     background-color: rgb(236, 235, 235);
 }
-table tr{
+
+table tr {
     background-color: rgb(253, 253, 253);
 }
 
-th,
+table th,
 td {
     height: 32px;
-    border: 1px solid #ccc;
-    padding-left: 5px;
+
+}
+
+blockquote {
+    border-left: 2px solid rgb(221, 221, 221);
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.koko{
+    text-align: right;
 }
