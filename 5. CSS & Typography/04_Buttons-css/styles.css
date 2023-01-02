@@ -1,5 +1,9 @@
+body {
+    background-color: rgb(216, 213, 213);
+}
+
 .first {
-    background-color: white;
+    background-color: rgb(216, 213, 213); 
 }
 
 .fill {
@@ -8,7 +12,23 @@
 }
 
 
-button{
+button {
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding: 5px 8px;
+    margin-right: 10px;
+}
+
+.hover.first:hover {
+    border:   solid green;
+}
+
+.fill.hover:hover {
+    background-color: green;
+    border: 1px solid green;
+
+}
+
+i{
+    margin-right: 5px;
 }
