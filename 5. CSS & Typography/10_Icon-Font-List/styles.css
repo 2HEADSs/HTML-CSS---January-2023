@@ -10,6 +10,10 @@ ul {
     list-style: none;
 }
 
+i{
+    padding-right: 10px;
+}
+
 .check i {
     color: #2fcc71;
     font-size: 25px;
