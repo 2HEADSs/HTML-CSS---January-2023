@@ -21,6 +21,7 @@ button {
 
 .hover.first:hover {
     border:   solid green;
+    background-color: white;
 }
 
 .fill.hover:hover {
