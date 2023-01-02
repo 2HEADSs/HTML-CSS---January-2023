@@ -1,0 +1,23 @@
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    border: 1px solid black;
+    width: 25%;
+    text-align: center;
+    padding: 3px 8px;
+}
+
+@media  screen and (max-width: 480px) {
+  li{
+    width: 100%;
+    color: red;
+  }
+  ul{
+    flex-direction: column;
+  }
+  }
