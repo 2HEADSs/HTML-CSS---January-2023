@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+header{
+    margin-top: 25px;
+    border-bottom: 2px solid black;
+}
+header h1 {
+    display: inline-block;
+    width: 200px;
+    /* vertical-align: top; */
+
+}
+
+header nav {
+    display: inline-block;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 43px;
+}
+
+a{
+    text-decoration:none;
+    color: green;
+}
+main h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
