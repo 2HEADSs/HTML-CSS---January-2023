@@ -1,74 +1,77 @@
 * {
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     background-color: #eaebec;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     padding: 2rem;
-  }
-  
-  .item {
+}
+
+.item {
     padding: 1rem;
     border-radius: 0.5rem;
     position: absolute;
     width: 100px;
     height: 100px;
-  }
-  
-  .main {
+}
+
+.main {
     padding: 2rem;
     border: 2px solid black;
     position: relative;
     height: 400px;
-  }
-  
-  .main__first {
+}
+
+.main__first {
     background-color: #845ec2;
     top: 20px;
     left: 20px;
     z-index: 10;
-  }
-  .main__second {
+}
+
+.main__second {
     background-color: #d65db1;
     top: 50px;
     left: 50px;
     z-index: 13;
-  }
-  .main__third {
+}
+
+.main__third {
     background-color: #ff6f91;
     top: 100px;
     left: 100px;
-  
+
     z-index: 12;
-  }
-  
-  .sub {
+}
+
+.sub {
+    z-index: 11;
     position: absolute;
     top: 100px;
     left: 100px;
-    z-index: 11;
-  }
-  
-  .sub__first {
+}
+
+.sub__first {
     background-color: #ff9671;
     top: 150px;
     left: 150px;
-  
+
     z-index: 12;
-  }
-  .sub__second {
+}
+
+.sub__second {
     background-color: #ffc75f;
     top: 200px;
     left: 200px;
-  
+
     z-index: 9;
-  }
-  .sub__third {
+}
+
+.sub__third {
     background-color: #008f7a;
     top: 250px;
     left: 250px;
-  
+
     z-index: 20;
-  }
-  
+}
