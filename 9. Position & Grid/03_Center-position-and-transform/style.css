@@ -6,20 +6,23 @@ body {
     background-color: rgb(238, 238, 238);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em/1.2;
+    margin: 0 auto;
+    max-width: 400px;
 }
 
 section {
     background-color: rgb(255, 255, 255);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
     
 }
 
 section img {
+    top: 24px;
     position: absolute;
 }
-section .info {
+ .info {
     position: absolute;
 }
