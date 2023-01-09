@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.viewport:nth-child(1) {
+    position: relative;
+    background-image: linear-gradient(to right, #185a9d, rgba(24, 90, 157, 255));
+    width: 100vh;
+    height: 50vh;
+}
+
+.viewport:nth-child(2) {
+    position: relative;
+    background-image: linear-gradient(to right, #a83279, rgba(211, 131, 18, 255));
+    width: 100vh;
+    height: 50vh;
+
+}
+
+img:nth-child(first){
+    position: absolute; 
+    padding: 80px;
+}
+img:nth-child(2){
+    position: absolute; 
+    padding: 200px;
+}
