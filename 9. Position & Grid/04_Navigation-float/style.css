@@ -11,7 +11,8 @@ body {
     z-index: 1000;
     border-bottom: 2px solid black;
 }
-.head p{
+
+.head p {
     font-size: 35px;
 }
 
