@@ -24,24 +24,31 @@ body {
     object-position: center center;
 }
 
-.card .content  {
+.card .content {
     padding: 18px;
 }
 
-.card .content.content--btn  {
+.card .content.content--btn {
     position: relative;
+    padding-bottom: 15%;
 }
 
 
 
 .card .content__btn {
     position: absolute;
-    top: 70%px;
+    top: 70%;
     right: 18px;
-  
+
     padding: 4px 12px;
     border-radius: 6px;
     background-color: rgb(0, 153, 0);
     color: #fff;
     letter-spacing: 1.1px;
+}
+
+.card .content.content--btn .content__title,
+.card .content.content--btn .content__desc {
+    width: 80%;
+    
 }
