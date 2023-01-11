@@ -2,13 +2,13 @@ body {
     padding: 3% 7%;
     background-color: rgb(238, 238, 238);
     font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 .head {
     position: relative;
     top: 0px;
     left: 0px;
-    z-index: 1000;
     border-bottom: 2px solid black;
 }
 
@@ -38,16 +38,33 @@ body {
 }
 
 .content {
-    width: 50%;
+    width: 70%;
 }
-
+.main__article-second__first-section{
+    width: 70%;
+}
 .first-article-div {
-    content: "";
-    clear: both;
-    display: table;
+    position: relative;
 }
 
 img {
     float: right;
     padding: 1%;
+}
+.main__article-second__first-section__paragraph-left,
+.main__article-second__first-section__paragraph-right {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 49%;
+
+}
+.main__article-second__first-section__paragraph-left{
+border-right: 3px solid rgba(208, 205, 207, 0.56);
+}
+
+
+div.main__article-second__first-section__paragraph-right{
+position: absolute;
+width: 25%;
+padding-left: 5%;
 }
