@@ -1,62 +1,45 @@
-/* 
-•	Create an "index.html" and "style.css" files
-•	Change the document title to "Typography"
-•	Use Helvetica, sans-serif font-family for the document
-o	Make the font-size 16px
-o	Change the line-height to 1.5
-•	Use Georgia, serif font-family for the headings
-•	Use headings from h1 to h6
-•	Create a HTML table and style it
-•	Use blockquote tag
-o	Style its left border with rgb(221,221,221) color
-o	Style its font to italic
-•	Use hr tag for the horizontal lines
-
- */
-body {
-    font-family: Arial, Helvetica, sans-serif;
+html{
+    font-family: Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, serif;
 }
-
-table {
+ul{
+    list-style: square;
+}
+ul ul{
+    list-style: disc;
+}
+ul ul ul{
+    list-style: circle;
+}
+th{
+    background-color: darkgray;
+}
+table{
+    border-collapse: collapse;
     width: 100%;
-
+    border: 1px solid #ccc;
 }
-
-th {
-    background-color: rgb(173, 173, 173);
+th{
+    text-align: left;
+    padding: 6px;
 }
-
-table tr:nth-child(even) {
-    background-color: rgb(236, 235, 235);
+td{
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 6px;
 }
-
-table tr {
-    background-color: rgb(253, 253, 253);
+tr:nth-child(odd){
+    background-color: rgb(221,221,221);
 }
-
-table th,
-td {
-    height: 32px;
-
-}
-
-blockquote {
-    border-left: 2px solid rgb(221, 221, 221);
-    padding-left: 10px;
+blockquote{
+    border-left: 6px solid rgb(221,221,221);
     font-style: italic;
+    padding: 10px 30px;
 }
-
-.koko{
+.bottom{
     text-align: right;
 }
