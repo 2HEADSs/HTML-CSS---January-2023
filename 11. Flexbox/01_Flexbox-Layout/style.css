@@ -1,0 +1,35 @@
+body {
+    background-color: #EEE;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+header,
+main,
+aside,
+footer {
+    padding: 2rem;
+    background-color: #FFF;
+    border-radius: 0.4rem;
+    color: #000;
+    -webkit-box-shadow: 1px 0px 10px 2px rgba(143, 143, 143, 1);
+    -moz-box-shadow: 1px 0px 10px 2px rgba(143, 143, 143, 1);
+    box-shadow: 1px 0px 10px 2px rgba(143, 143, 143, 1);
+}
+
+header,
+footer {
+    flex-basis: 100%;
+}
+
+main {
+    width: 65%;
+    height: 250px;
+}
+
+aside {
+    width: 23%;
+    flex-grow: 1;
+}
