@@ -1,16 +1,4 @@
-/* 
-•	<img>:
-o	Solid right border with size 1px and color #d1d1d1
-o	Float the images on the left
-o	Right margin: 19px
-o	Right padding: 19px
-•	<p>:
-o	Font size: 20px
-o	Height of the line: 30px
-o	Text color: #2e2e2e
-o	Text align: justify
 
-*/
 
 main {
     width: 900px;
@@ -28,5 +16,5 @@ p{
     font-size: 20px;
     line-height: 30px;
     color: #2e2e2e;
-    text-align: center;
+    text-align: justify;
 }
