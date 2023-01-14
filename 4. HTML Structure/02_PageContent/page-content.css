@@ -1,21 +1,17 @@
-.header h1 {
+section{
+    margin-left: 20px;
+}
+header h1{
     font-size: 28px;
 }
-
-.header p {
+header p{
     font-style: italic;
 }
-
-.last {
+article p{
     font-size: 24px;
 }
-
-body {
-    margin: 0px;
-    padding: 0px;
-    background-color: #cccccc;
-}
-
-section {
-    margin-left: 20px;
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #CCCCCC;
 }
