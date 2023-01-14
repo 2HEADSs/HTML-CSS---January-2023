@@ -11,11 +11,11 @@ div{
 
 .viewport:nth-child(1) {
     display: block;
-    background-image: linear-gradient(to right, #185a9d, rgba(24, 90, 157, 255));
+    background: linear-gradient(to right, #185a9d, rgba(24, 90, 157, 255));
 }
 .viewport:nth-child(2) {
     display: block;
-    background-image: linear-gradient(to right, #a83279, rgba(211, 131, 18, 255));
+    background: linear-gradient(to right, #a83279, rgba(211, 131, 18, 255));
 
 
 }
