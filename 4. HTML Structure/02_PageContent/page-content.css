@@ -16,3 +16,7 @@ header h1 {
 header p {
     font-style: italic;
 }
+
+.last {
+    font-size: 24px;
+}
