@@ -1,33 +1,17 @@
-
-
-
 body {
     background-color: #e4e978;
+    padding: 5px;
+}
+
+article {
+    background-color: #f2f4c0;
     width: 700px;
+	border: 1px solid #b2ad7d;
+    margin: 15px;
+    padding: 15px;
 }
 
-
-.header-article,
-.main-section {
-    margin: 15px 10px;
-}
-
-.main-section {
+.comments {
     font-style: italic;
     color: #4c7658;
-}
-
-.header-article,
-.inside-article {
-    padding: 5px 15px;
-    border: 1px solid #b2ad7d;
-    background-color: #f2f4c0;
-}
-
-
-.inside-article2 {
-    padding: 5px 15px;
-    border: 1px solid #b2ad7d;
-    margin-top: 15px;
-    background-color: #f2f4c0; 
 }
