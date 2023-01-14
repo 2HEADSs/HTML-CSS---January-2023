@@ -1,23 +1,24 @@
-body {
-    box-sizing: border-box;
-}
 
-* {
+html {
     font-family: "Arial, Helvetica", "sans-serif";
     font-size: 20px;
 }
 
 .container {
     display: flex;
-    /* align-content: center; */
-    width: 120px;
     flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 15vw;
+    height: 35rem;
+    gap: 7px;
 }
 
 .container span {
+    font-size: 20px;
     border: 1px solid black;
-    width: 50px;
-    height: 50px;
+    flex-basis: 10%;
+    text-align: center;
+    line-height: 51px;
 }
 
 .container span:nth-child(11) {
