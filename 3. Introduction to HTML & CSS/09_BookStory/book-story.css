@@ -9,3 +9,7 @@ main {
 main h1{
     text-align: center;
 }
+
+main p{
+    font-size: 18px;
+}
