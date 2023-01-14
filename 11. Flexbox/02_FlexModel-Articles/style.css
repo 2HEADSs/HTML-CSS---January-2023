@@ -1,0 +1,20 @@
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.2;
+}
+
+p {
+    font-family: "Arial", "Helvetica", "sans-serif";
+    line-height: 1.5;
+}
+
+body section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+ article{
+    max-width: 70vw;
+
+}
