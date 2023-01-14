@@ -1,6 +1,9 @@
-@import 'https://fonts.googleapis.com/css?family=Montserrat';
+/* @import 'https://fonts.googleapis.com/css?family=Montserrat'; */
 
-
+@font-face {
+    font-family: "Montserrat";
+    src: url(https://fonts.googleapis.com/css?family=Montserrat);
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
