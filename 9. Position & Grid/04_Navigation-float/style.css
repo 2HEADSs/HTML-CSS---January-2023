@@ -69,11 +69,12 @@ div.main__article-second__first-section__paragraph-right {
     position: absolute;
     width: 25%;
     padding-left: 5%;
+    color: rgba(32, 31, 31, 0.56);
 }
 
 .main__article-second__first-section span {
     position: absolute;
-    color: red;
+    color: rgba(32, 31, 31, 0.56);
     padding: 0px;
     bottom: -12%;
     right: 0%;
