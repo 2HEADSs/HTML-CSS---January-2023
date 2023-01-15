@@ -6,10 +6,13 @@ header ul {
     display: flex;
 }
 
-header ul li a {
-    text-decoration: ;
+ul {
+    list-style: none;
 }
 
+li:nth-last-child(1) a{
+    color: red;
+}
 
 header {
     border-bottom: 2px solid rgb(0, 0, 0);
