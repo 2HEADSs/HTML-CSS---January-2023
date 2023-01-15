@@ -1,0 +1,23 @@
+.container {
+    max-width: 65vw;
+}
+
+.container span {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.container-flex .week {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-flex .week .workweek,
+.container-flex .week .weekend {
+    width: 100%;
+    background-color: red;
+}
