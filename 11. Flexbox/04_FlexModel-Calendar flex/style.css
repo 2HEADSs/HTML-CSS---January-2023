@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -36,11 +36,11 @@
     width: 50%;
 }
 
-.container-flex .notes{
+.container-flex .notes {
     display: flex;
     flex-direction: column;
 }
 
-.container-flex .notes span{
+.container-flex .notes span {
     height: 50%;
 }
