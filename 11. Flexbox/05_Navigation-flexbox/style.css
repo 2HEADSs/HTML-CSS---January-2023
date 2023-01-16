@@ -25,7 +25,6 @@ header nav ul{
     display: flex;
     align-items:center;
     gap: 30px;
-    flex-flow: row-reverse;
 }
 
 ul {
@@ -37,10 +36,6 @@ ul li a {
     color: rgb(0, 153, 0);
 }
 
-
-/* li:nth-last-child(1) a {
-    color: red;
-} */
 
 header {
     border-bottom: 2px solid rgb(0,0,0);
