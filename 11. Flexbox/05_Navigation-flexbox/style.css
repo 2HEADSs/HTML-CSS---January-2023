@@ -23,8 +23,8 @@ header nav {
 }
 header nav ul{
     display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
+    flex-flow: row wrap;
+    list-style: none;
 }
 
 ul {
