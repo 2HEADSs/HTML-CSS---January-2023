@@ -1,19 +1,52 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+
 header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header p {
+    text-transform: uppercase;
+    font-size: 30px;
+
 }
 
 header ul {
     display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-left: 0px;
 }
 
 ul {
     list-style: none;
 }
 
-li:nth-last-child(1) a{
-    color: red;
+ul li a {
+    text-decoration: none;
+    color: rgb(30, 161, 30);
 }
+
+
+/* li:nth-last-child(1) a {
+    color: red;
+} */
 
 header {
     border-bottom: 2px solid rgb(0, 0, 0);
 }
+
+/* 
+•	Divide the body into header and main tag
+•	The bottom border in the header must have
+o	Border width - 2px
+o	Border color - rgb(0, 0, 0)
+o	Border style - solid
+•	The display property of the header must be flex
+•	The unordered list in the header must have display property flex
+•	The anchors text color in the navigation must be rgb(0, 153, 0)
+ */
