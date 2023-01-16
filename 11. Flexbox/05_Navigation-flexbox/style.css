@@ -23,8 +23,9 @@ header nav {
 }
 header nav ul{
     display: flex;
-    flex-flow: row wrap;
-    list-style: none;
+    align-items:center;
+    gap: 30px;
+    flex-flow: row-reverse;
 }
 
 ul {
