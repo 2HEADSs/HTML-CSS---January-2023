@@ -1,0 +1,16 @@
+/* 
+•	Add section with class gallery (section.gallery)
+•	Add unordered list with list items and images inside
+•	Change the body, ul and li display property to flex
+•	Set the ul property justify-content to be equal to space-between
+ */
+
+ body{
+    display: flex;
+ }
+ ul{
+    display: flex;
+ }
+ li{
+    display: flex;
+ }
