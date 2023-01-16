@@ -15,11 +15,16 @@ header p {
 
 }
 
-header ul {
+header nav {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
     margin-left: 0px;
+}
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 ul {
