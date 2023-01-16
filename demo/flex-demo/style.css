@@ -27,12 +27,26 @@ p {
 }
 
 @media all and (max-width: 800px) {
+    nav {
+        justify-content: space-around;
+
+    }
+
     .navigation {
         justify-content: space-around;
     }
 }
 
 @media all and (max-width: 600px) {
+    nav {
+        flex-flow: column wrap;
+        padding: 0;
+
+    }
+    nav p {
+        text-align: center;
+    }
+
     .navigation {
         flex-flow: column wrap;
         padding: 0;
