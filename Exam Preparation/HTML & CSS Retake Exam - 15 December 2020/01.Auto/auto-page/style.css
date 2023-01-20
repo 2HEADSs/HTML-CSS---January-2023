@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;900&family=Poppins:wght@300;400&display=swap');
-/* 
-font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;
- */
+
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -37,8 +34,8 @@ h2 {
 
 .features{
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .features .feature{
@@ -47,11 +44,14 @@ h2 {
     gap: 16px;
 }
 .features .feature .feature-icon{
-    width: 80px;
+    width: 70px;
+}
+
+.features .feature:not(:last-of-type){
+    margin-bottom: 18px;
 }
 
 .features .feature .feature-container .feature-title,
-.features .feature .feature-container .feature-title{
+.features .feature .feature-container .feature-desc{
     margin: 0px;
-
 }
