@@ -6,15 +6,17 @@ font-family: 'Poppins', sans-serif;
 
 body {
     font-family: 'Poppins', sans-serif;
-    ;
+    color: rgb(120, 120, 120);
 }
 
 h1,
 h2 {
     font-family: 'Montserrat', sans-serif;
+    color: black;
 }
 
 .section {
+    width: 1440px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,4 +26,25 @@ h2 {
 .section .info,
 .section .picture {
     width: 50%;
+}
+
+.features{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.features .feature{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.features .feature .feature-icon{
+    width: 100px;
+}
+
+.features .feature .feature-container .feature-title,
+.features .feature .feature-container .feature-title{
+    margin: 0px;
+
 }
