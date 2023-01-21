@@ -17,13 +17,32 @@ h3 {
     color: black;
 }
 
+
 .section {
+    width: 90%;
+    margin: 0 auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.info {
+    padding-left: 110px;
 }
 
 .info,
 .picture {
     width: 50%;
+}
+
+.picture {
+    height: auto;
+}
+
+.section .info .info__title,
+.section .info .info__p:last-of-type {
+    margin-bottom: 16px;
 }
 
 .info__ul {
@@ -36,8 +55,18 @@ h3 {
 .info__li {
     display: flex;
     align-items: center;
+    gap: 12px;
 }
 
 .info__li img {
     width: 80px;
+}
+
+.info__ul .info__li:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.info__ul .info__li .ul--div .il--heading,
+.info__ul .info__li .ul--div .li--p {
+    margin: 0px;
 }
