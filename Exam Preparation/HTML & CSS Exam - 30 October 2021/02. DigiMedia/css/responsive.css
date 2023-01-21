@@ -1,1 +1,14 @@
 /* TODO: Add responsive styles here... */
+
+@media (max-width:600px){
+    /* Navigation */
+
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-brand{
+        margin-right: unset;
+    }
+}
