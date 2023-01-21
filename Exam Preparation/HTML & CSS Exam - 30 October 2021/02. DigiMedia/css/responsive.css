@@ -11,4 +11,10 @@
     .navbar-brand{
         margin-right: unset;
     }
+
+    /* Hero section */
+
+    .hero > img{
+        display: none;
+    }
 }
