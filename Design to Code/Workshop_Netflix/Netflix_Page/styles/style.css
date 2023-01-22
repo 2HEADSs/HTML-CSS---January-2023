@@ -38,6 +38,18 @@ body {
     box-shadow: var(--shadow-xl)
 }
 
+/* Component-input */
+.input-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+    justify-items: center;
+    align-items: center;
+}
+.input-wrapper .input{
+    width: 100%;
+}
+
 
 /* Header */
 
@@ -85,12 +97,21 @@ body {
 
 #hero .content .title{
     font-size: 2rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
 }
 
 #hero .content .sub-title{
     font-size: 1.25rem;
     font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
 }
+
+#hero .content .sub-title:last-of-type{
+    margin-bottom: 0.5rem;
+}
+
 #hero .content .hint{
     font-size: 1rem;
     font-weight: 400;
