@@ -188,6 +188,9 @@ section {
 #faq .questions{
     margin-bottom: 2rem;
 }
+#faq .questions > * + * {
+    margin-top: 0.5rem;
+    }
 
 #faq .questions .question {
   background-color: var(--clr-grey);
@@ -218,9 +221,7 @@ section {
   transform: rotate(45deg);
 }
 
-#faq .questions > * + * {
-margin-top: 0.5rem;
-}
+
 
 #faq .subscribtion{
     padding: 0px var(--p-x);
