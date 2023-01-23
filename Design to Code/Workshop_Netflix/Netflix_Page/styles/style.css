@@ -29,6 +29,41 @@ body {
   } */
 }
 
+@media (min-width: 1024px) {
+  :root {
+    --p-x: 2rem;
+    --p-y: 4rem;
+  }
+
+  html {
+    font-size: 20px;
+  }
+  
+  .input-wrapper {
+    min-width: 860px;
+  }
+
+  .input-wrapper .input {
+    width: calc(100% - 260px);
+
+  }
+
+  .input-wrapper .btn {
+    min-width: 260px;
+
+  }
+}
+
+@media (min-width: 1440px) {
+  :root {
+    --p-x: 3rem;
+    --p-y: 5rem;
+  }
+
+  html {
+    font-size: 26px;
+  }
+}
 /* Component-button */
 .btn {
   position: relative;
@@ -59,7 +94,7 @@ section {
 
 /* Component-input */
 .input-wrapper {
-  /* width: 100%; */
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   /* flex-direction: column; */
@@ -234,9 +269,15 @@ section {
     align-items: center;
     gap: 0.25rem;
   }
-  .feature-section:nth-of-type(odd) .feature-img{
-    order: -1
-  };
+  .feature-section:nth-of-type(odd) .feature-img {
+    order: -1;
+  }
+
+  .feature-section .feature-img {
+
+    max-width: unset;
+
+  }
 }
 /* FAQ */
 
@@ -259,6 +300,9 @@ section {
 #faq .questions .question {
   background-color: var(--clr-grey);
   padding: 0.5rem var(--p-x);
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #faq .questions .question .line {
@@ -288,12 +332,14 @@ section {
 #faq .subscribtion {
   padding: 0px var(--p-x);
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #faq .subscribtion .title {
   font-weight: 500;
   margin: 0px auto 1rem auto;
-  max-width: 460px;
+  max-width: 680px;
 }
 
 /* MEDIA */
