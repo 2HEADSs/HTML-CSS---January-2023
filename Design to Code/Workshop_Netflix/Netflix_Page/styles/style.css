@@ -18,11 +18,15 @@ body {
   color: var(--clr-white);
 }
 
-@media (min-width:768px) {
-  :root{
-    --p-x: 1.5rem;
-    --p-y: 3rem;
+@media (min-width: 768px) {
+  :root {
+    --p-x: 2rem;
+    --p-y: 4rem;
   }
+
+  /* html {
+    font-size: 18px;
+  } */
 }
 
 /* Component-button */
@@ -219,6 +223,21 @@ section {
   margin: 0 auto;
 }
 
+@media (min-width: 768px) {
+  .feature-section {
+    text-align: left;
+  }
+
+  .feature-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 0.25rem;
+  }
+  .feature-section:nth-of-type(odd) .feature-img{
+    order: -1
+  };
+}
 /* FAQ */
 
 #faq {
@@ -275,7 +294,6 @@ section {
   font-weight: 500;
   margin: 0px auto 1rem auto;
   max-width: 460px;
-  
 }
 
 /* MEDIA */
