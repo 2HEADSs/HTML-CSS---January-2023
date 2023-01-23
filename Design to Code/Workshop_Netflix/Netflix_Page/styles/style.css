@@ -18,6 +18,13 @@ body {
   color: var(--clr-white);
 }
 
+@media (min-width:768px) {
+  :root{
+    --p-x: 1.5rem;
+    --p-y: 3rem;
+  }
+}
+
 /* Component-button */
 .btn {
   position: relative;
@@ -67,6 +74,8 @@ section {
 
 @media (min-width: 640px) {
   .input-wrapper {
+    margin-left: auto;
+    margin-right: auto;
     width: 480px;
     row-gap: unset;
     flex-wrap: nowrap;
@@ -204,7 +213,8 @@ section {
   margin-bottom: 1rem;
 }
 .feature-section .feature-img {
-  max-width: 460px;
+  width: 100%;
+  max-width: 480px;
   display: block;
   margin: 0 auto;
 }
@@ -263,7 +273,9 @@ section {
 
 #faq .subscribtion .title {
   font-weight: 500;
-  margin-bottom: 1rem;
+  margin: 0px auto 1rem auto;
+  max-width: 460px;
+  
 }
 
 /* MEDIA */
