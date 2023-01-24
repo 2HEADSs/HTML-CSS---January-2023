@@ -263,7 +263,7 @@ section {
     text-align: left;
   }
 
-  .feature-section {
+  .feature-section .content-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -276,6 +276,15 @@ section {
   .feature-section .feature-img {
 
     max-width: unset;
+
+  }
+}
+
+@media(min-width:1440px){
+  .feature-section .content-wrapper {
+    max-width: 1200px; 
+    margin-left: auto;
+    margin-right: auto;
 
   }
 }
