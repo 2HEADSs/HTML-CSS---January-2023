@@ -3,6 +3,11 @@
 @media (max-width:600px){
     /* Navigation */
 
+    /* body{
+        text-align: center;
+    } */
+
+
     .navbar{
         display: flex;
         justify-content: center;
@@ -14,7 +19,51 @@
 
     /* Hero section */
 
+    .hero{
+        text-align: center;
+    }
+
     .hero > img{
         display: none;
     }
+
+    .hero .hero-btns{
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+
+
+    /* About us */
+
+    #about-us{
+        padding-bottom: 80px;
+    }
+
+    #about-us .service-txt{
+        text-align: center;
+    }
+
+    #about-us .hero-btns.service-btn{
+        margin-bottom: 70px;
+    }
+
+    #about-us .row{
+        gap:50px;
+    }
+
+    /* About */
+
+    .container .row{
+        text-align: center;
+    }
+
+    .container .hero-btns.contact-btn{
+        display: none;
+    }
+
+    /* footer */
+    
 }
