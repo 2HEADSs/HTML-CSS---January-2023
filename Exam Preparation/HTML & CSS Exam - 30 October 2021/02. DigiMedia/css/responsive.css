@@ -78,4 +78,9 @@
     #contact-us .hero-btns.contact-btn{
         display: none;
     }
+
+    footer .contact-nav{
+        display: flex;
+        flex-direction: column;
+    }
 }
