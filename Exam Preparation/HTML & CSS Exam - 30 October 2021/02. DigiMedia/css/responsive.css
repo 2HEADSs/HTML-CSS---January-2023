@@ -54,16 +54,28 @@
         gap:50px;
     }
 
+    #about-us .side2-img img {
+        top: 2000px;
+    }
     /* About */
 
-    .container .row{
+    .about{
+        margin-bottom: 0px;
+    }
+    .about .container .row{
         text-align: center;
     }
 
-    .container .hero-btns.contact-btn{
-        display: none;
+    .about .container .row>div{
+        margin-bottom: 70px;
+    }
+    
+    /* contact us */
+    #contact-us .col-12{
+        text-align: center;
     }
 
-    /* footer */
-    
+    #contact-us .hero-btns.contact-btn{
+        display: none;
+    }
 }
