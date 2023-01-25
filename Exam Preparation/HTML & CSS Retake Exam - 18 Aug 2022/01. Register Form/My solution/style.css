@@ -4,14 +4,52 @@
 body {
   background-image: url("../images/background.png");
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+/* container */
 .container {
-    position: absolute;
   background-image: url("../images//form-background.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
   width: 50%;
   /* height: 60%; */
-  top: 50%;
-  transform: translate(50%, -50%);
-  
+  padding: 3%;
+  border-radius: 20px;
+  box-shadow: 15px 11px 5px 0px rgba(52, 52, 52, 0.75);
+}
+
+/* inputs */
+.input input {
+  border-radius: 20px;
+  border: 1px solid rgb(180, 178, 178);
+}
+
+.elipse{
+    padding: 8px 16px;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+.input:not(:first-child){
+    width: 70%;
+}
+
+.double{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+
+/* form btn */
+
+#button {
+  border-radius: 20px;
+  background-color: rgb(191, 3, 3);
+  color: white;
 }
