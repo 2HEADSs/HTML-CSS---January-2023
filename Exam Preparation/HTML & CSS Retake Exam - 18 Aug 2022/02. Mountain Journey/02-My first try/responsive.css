@@ -1,11 +1,37 @@
-nav{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+nav {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-nav ul{
-    display: flex;
+nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-title {
+  padding: 1em;
+}
+.header-title h1 {
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+.team-description-wrapper ul{
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+}
+
+
+
+
+
+.blog-list{
+    flex-direction: column;
+    width: 500px;
 }
