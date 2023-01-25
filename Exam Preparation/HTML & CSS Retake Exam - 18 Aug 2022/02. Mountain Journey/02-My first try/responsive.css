@@ -1,37 +1,58 @@
-nav {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-nav ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.header-title {
-  padding: 1em;
-}
-.header-title h1 {
+@media (max-width: 600px) {
+  /* header */
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-title {
+    padding: 1em;
+  }
+  .header-title h1 {
     font-size: 35px;
-}
+  }
+  .header-title p {
+    font-size: 15px;
+  }
+  /* about us */
+  .about-us {
+    /* padding: 2.5rem 0.5rem; */
+  }
 
+  /* team description */
+  .team-description-wrapper {
+    width: 100%;
+  }
 
+  .team-description-wrapper ul {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2px;
+  }
 
+  .team-description-wrapper ul li {
+    /* width: 50%; */
+    /* /* height: auto; */
+    /* overflow: hidden; */
+  }
 
+  .team-description ul li img {
+/* width: 50%; */
+height: 50%;
+  }
 
+  .choose-us {
+    width: 100%;
+  }
 
-
-
-.team-description-wrapper ul{
+  .blog-list {
     flex-direction: column;
-}
-
-
-
-
-
-.blog-list{
-    flex-direction: column;
-    width: 500px;
+    width: 100%;
+  }
 }
