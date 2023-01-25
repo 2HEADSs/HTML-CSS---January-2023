@@ -54,6 +54,12 @@ form {
     flex-basis: 50%;
     margin-right: 0px;
 }
+.double{
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: stretch;
+    margin-left: 0px;
+}
 
 /* form btn */
 
