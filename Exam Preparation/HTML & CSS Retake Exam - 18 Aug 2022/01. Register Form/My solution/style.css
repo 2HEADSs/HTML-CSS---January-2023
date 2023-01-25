@@ -10,13 +10,14 @@ body {
 }
 /* container */
 .container {
+  position: relative;
   background-image: url("../images//form-background.png");
   background-size: cover;
   display: flex;
   flex-direction: column;
   width: 50%;
   /* height: 60%; */
-  padding: 3%;
+  padding: 3% 3% 6% 3%;
   border-radius: 20px;
   box-shadow: 15px 11px 5px 0px rgba(52, 52, 52, 0.75);
 }
@@ -39,32 +40,48 @@ body {
 } */
 
 form {
+  /* position: relative; */
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
   width: 60%;
 }
+
 .double,
 .input {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 2%;
 }
 
 .double > .input {
-    flex-basis: 50%;
-    margin-right: 0px;
+  flex-basis: 50%;
+  margin-right: 0px;
 }
-.double{
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: stretch;
-    margin-left: 0px;
+.double {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: stretch;
+  margin-left: 0px;
+}
+
+label {
+  font-size: smaller;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 /* form btn */
 
 #button {
+  position: absolute;
   border-radius: 20px;
   background-color: rgb(191, 3, 3);
   color: white;
+  width: 150px;
+  margin-left: calc(100%-75px);
+  padding: 5px 0px;
+  text-transform: uppercase;
+  bottom: 32px;
+  margin-left: 100px;
 }
