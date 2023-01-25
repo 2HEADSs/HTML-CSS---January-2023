@@ -1,2 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
 /* font-family: 'Mulish', sans-serif; */
+
+body {
+  background-image: url("../images/background.png");
+  background-size: cover;
+}
+
+.container {
+    position: absolute;
+  background-image: url("../images//form-background.png");
+  width: 50%;
+  /* height: 60%; */
+  top: 50%;
+  transform: translate(50%, -50%);
+  
+}
