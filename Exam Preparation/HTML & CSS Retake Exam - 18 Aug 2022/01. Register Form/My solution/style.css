@@ -22,29 +22,38 @@ body {
 }
 
 /* inputs */
-.input input {
+
+.elipse {
+  padding: 8px 16px;
   border-radius: 20px;
   border: 1px solid rgb(180, 178, 178);
 }
 
-.elipse{
-    /* padding: 8px 16px; */
-}
 .input {
   display: flex;
   flex-direction: column;
   margin: 2%;
 }
-.input:not(:first-child){
-    width: 70%;
+/* .input:not(:first-child) {
+  width: 70%;
+} */
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.double,
+.input {
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
 }
 
-.double{
-    display: flex;
-    flex-direction: row;
-    width: 70%;
+.double > .input {
+    flex-basis: 50%;
+    margin-right: 0px;
 }
-
 
 /* form btn */
 
