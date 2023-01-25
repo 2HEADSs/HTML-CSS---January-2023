@@ -1,5 +1,5 @@
 @media (max-width: 600px) {
-    header {
+    /* header {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -10,8 +10,8 @@
     }
     nav {
         flex-direction: column;
-    }
-    nav ul {
+    } */
+    /* nav ul {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -20,13 +20,13 @@
 
     nav li {
         padding-bottom: 5px;
-    }
+    } */
 
-    .header-title {
+    /* .header-title {
         padding: 0;
-    }
+    } */
 
-    .team-description ul {
+    /* .team-description ul {
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -34,7 +34,7 @@
         width: 200px;
         height: 200px;
         padding-bottom: 0.3rem;
-    }
+    } */
     .choose-us ul {
         display: flex;
         flex-direction: column;
