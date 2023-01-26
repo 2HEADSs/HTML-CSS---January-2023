@@ -1,0 +1,59 @@
+img {
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    max-width: 1000px;
+    background-color: #F5F5F5;
+}
+
+article {
+    margin: 10px 10px;
+    padding: 20px;
+}
+
+.big_text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    border-bottom: 2px solid red;
+    padding-bottom: 20px;
+
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.second {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.maine-home {
+    text-align: end;
+    font-size: 40px;
+}
+
+.design {
+    color: red;
+    text-align: right;
+    font-size: 25px;
+
+}
+
+i {
+    color: white;
+    border: 2px solid red;
+    border-radius: 50%;
+    background-color: red;
+}
