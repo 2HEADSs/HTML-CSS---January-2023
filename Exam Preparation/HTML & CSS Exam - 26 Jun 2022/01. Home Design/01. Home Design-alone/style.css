@@ -1,28 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
-/* font-family: 'Courgette', cursive; */
 
+:root {
+  --clr-red: rgb(192, 3, 3);
+  --clr-white: rgb(255, 255, 255);
+  --clr-background: #f5f5f5
+}
 body {
-  font-family: "Courgette", cursive;
+  font-family: "Courgette", "cursive";
+  background-color: var(--clr-background);
 }
-
-/* header */
-/* .header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 30px;
-}
-
-.header h1 {
-  align-self: center;
-}
-
-.header h3 {
-  align-self: center;
-  color: #ca2027;
-  text-align: end;
-  width: 210px;
-} */
 
 body {
   padding-top: 50px;
@@ -37,32 +23,52 @@ main {
   gap: 30px;
 }
 
-.header{
+.header {
   display: flex;
   flex-direction: column;
 }
 
-.header h1{
+.header h1 {
   font-weight: 400;
 }
 
-.header h3{
-  color: red;
+.header h3 {
+  color: var(--clr-red);
   margin-left: 140px;
   margin-bottom: 20px;
 }
 
-.card img{
-  border-radius: 15px   15px 0px 0px;
 
+.card {
+  background-color: var(--clr-white);
+  border-radius: 15px;
 }
 
-.card h3{
-margin: 10px 12px;
-padding-bottom: 10px;
-border-bottom: 1px solid red;
+.card img {
+  border-radius: 15px 15px 0px 0px;
 }
 
-.card p{
-margin-bottom: 30px;
+.card h3 {
+  margin: 10px 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--clr-red);
+}
+
+.card p {
+  margin-bottom: 30px;
+  padding: 0 5px;
+}
+.card button {
+  background-color: transparent;
+  border: none;
+  margin-bottom: 15px;
+}
+.card i {
+  border: 1px solid var(--clr-red);
+  border-radius: 50%;
+  padding: 5px;
+  text-align: center;
+  background-color: var(--clr-red);
+  color: white;
+  font-size: 8px;
 }
