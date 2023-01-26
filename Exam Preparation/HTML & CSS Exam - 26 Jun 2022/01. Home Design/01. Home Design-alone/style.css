@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
 :root {
-  --clr-red: #cb2027;
+  --clr-red: rgb(192, 3, 3);
   --clr-white: rgb(255, 255, 255);
   --clr-background: #f5f5f5
 }
