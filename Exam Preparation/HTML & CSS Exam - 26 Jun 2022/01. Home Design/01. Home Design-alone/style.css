@@ -1,6 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 /* font-family: 'Courgette', cursive; */
 
-body{
-    font-family: 'Courgette', cursive;
+body {
+  font-family: "Courgette", cursive;
+}
+
+.container {
+  max-width: 1200px;
+  max-height: 500px;
+  margin: 0px 50px;
+}
+
+/* header */
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px;
+}
+
+.header h1 {
+  align-self: center;
+}
+
+.header h3 {
+  align-self: center;
+  color: #ca2027;
+  text-align: end;
+  width: 210px;
+}
+/* card */
+.cards {
+  display: flex;
+  gap: 30px;
+  /* margin: 20px 30px; */
+}
+
+.card{
+    border-radius: 15px;
+}
+/* img */
+.imgContainer img{
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+
 }
