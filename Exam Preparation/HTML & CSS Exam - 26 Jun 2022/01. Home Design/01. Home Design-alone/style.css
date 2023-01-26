@@ -5,14 +5,8 @@ body {
   font-family: "Courgette", cursive;
 }
 
-.container {
-  max-width: 1200px;
-  max-height: 500px;
-  margin: 0px 50px;
-}
-
 /* header */
-.header {
+/* .header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,40 +22,47 @@ body {
   color: #ca2027;
   text-align: end;
   width: 210px;
+} */
+
+body {
+  padding-top: 50px;
+  text-align: center;
 }
 
-
-/* card */
-.cards {
+main {
   display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 10px 50px;
   gap: 30px;
-  align-items: center;
 }
 
-.card {
-  border-radius: 15px;
+.header{
   display: flex;
   flex-direction: column;
 }
-/* img */
-.imgContainer{
-    height: 200px;
 
-}
-.imgContainer img {
-  border-radius: 15px 15px 0px 0px;
-  height: 200px;;
+.header h1{
+  font-weight: 400;
 }
 
-.card .card__header {
-  padding: 15px;
-  text-align: center;
-  margin: 0px 15px;
-  border-bottom: 1px solid red;
+.header h3{
+  color: red;
+  margin-left: 140px;
+  margin-bottom: 20px;
 }
 
-.card .card__desc {
-  padding-top: 15px;
-  text-align: center;
-  margin: 0px 15px;
+.card img{
+  border-radius: 15px   15px 0px 0px;
+
+}
+
+.card h3{
+margin: 10px 12px;
+padding-bottom: 10px;
+border-bottom: 1px solid red;
+}
+
+.card p{
+margin-bottom: 30px;
 }
