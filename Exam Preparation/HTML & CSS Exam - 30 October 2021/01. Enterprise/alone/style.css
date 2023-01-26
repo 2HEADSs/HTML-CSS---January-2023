@@ -1,0 +1,24 @@
+:root {
+  --clr-bg: #f3f3f3;
+  --clr-txt: #273240;
+  --clr-btn: #786eff;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+.main {
+  background-color: var(--clr-bg);
+  margin: 30px 80px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+.info {
+  width: 40%;
+}
+
+img {
+  width: 40%;
+}
