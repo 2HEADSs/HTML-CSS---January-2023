@@ -1,0 +1,36 @@
+:root {
+  --clr-bcg: #e9e9e9;
+  --clr-white: #fff;
+}
+
+body {
+  background-color: var(--clr-bcg);
+}
+section {
+  width: 750px;
+  height: 400px;
+  margin: 100px auto;
+  display: flex;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.46);
+}
+
+section div {
+  width: 50%;
+  position: relative;
+  color: var(--clr-white);
+}
+
+section div img {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  filter: brightness(30%);
+  z-index: -1;
+}
+
+section form {
+  background-color: var(--clr-white);
+  width: 50%;
+}
