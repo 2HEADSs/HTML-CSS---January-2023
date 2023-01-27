@@ -30,6 +30,29 @@ section div img {
   z-index: -1;
 }
 
+section div p {
+  margin: 20px;
+}
+
+section div h2 {
+  margin-top: 100px;
+  text-align: center;
+}
+
+section div h4 {
+  text-align: center;
+}
+
+section div .icons {
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+}
+section div .icons .fa-github {
+  padding: 0px 8px;
+}
+
 section form {
   background-color: var(--clr-white);
   width: 50%;
