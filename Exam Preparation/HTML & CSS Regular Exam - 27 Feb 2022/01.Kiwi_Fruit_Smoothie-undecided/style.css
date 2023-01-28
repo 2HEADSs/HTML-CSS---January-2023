@@ -27,8 +27,7 @@ section {
 
 section div {
   position: relative;
-  width: 50%;
-  /* height: 100%; */
+
 }
 
 section > div h1 {
