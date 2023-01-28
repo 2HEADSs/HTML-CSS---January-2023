@@ -65,6 +65,8 @@ input {
   border: 0.5px solid rgb(199, 198, 198);
   margin-bottom: 14px;
   padding: 6px;
+  background-color: transparent;
+
 }
 
 label:not(:last-child) {

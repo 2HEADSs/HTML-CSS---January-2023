@@ -9,33 +9,35 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <article>
-      <form>
-        <h1>Registration Form</h1>
-        <div class="names">
-          <div class="names__name">
-            <label for="first_name">First Name</label>
-            <input type="text" id="first_name" />
+    <main>
+      <article>
+        <form>
+          <h1>Registration Form</h1>
+          <div class="names">
+            <div class="names__name">
+              <label for="first_name">First Name</label>
+              <input type="text" id="first_name" />
+            </div>
+            <div class="names__name">
+              <label for="last_name">Last Name</label>
+              <input type="text" id="last_name" />
+            </div>
           </div>
-          <div class="names__name">
-            <label for="last_name">Last Name</label>
-            <input type="text" id="last_name" />
-          </div>
+          <label for="email">Email</label>
+          <input type="text" id="email" />
+          <label for="password">Password</label>
+          <input type="text" id="password" />
+          <label for="conf">Confirm Passsowrd</label>
+          <input type="text" id="conf" />
+        </form>
+        <div class="terms">
+          <input type="checkbox" id="checkbox" />
+          <label for="checkbox"
+            >I accept the Terms of Use & Privacy Policy.</label
+          >
         </div>
-        <label for="email">Email</label>
-        <input type="text" id="email" />
-        <label for="password">Password</label>
-        <input type="text" id="password" />
-        <label for="conf">Confirm Passsowrd</label>
-        <input type="text" id="conf" />
-      </form>
-      <div class="terms">
-        <input type="checkbox" id="checkbox" />
-        <label for="checkbox"
-          >I accept the Terms of Use & Privacy Policy.</label
-        >
-      </div>
-      <button>Register Now</button>
-    </article>
+        <button>Register Now</button>
+      </article>
+    </main>
   </body>
 </html>
