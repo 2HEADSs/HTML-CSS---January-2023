@@ -10,7 +10,7 @@ main {
   position: absolute;
   width: 700px;
   height: 500px;
-  top: 50%;
+  top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-image: url("../images/form-background.png");
@@ -19,7 +19,7 @@ main {
   flex-direction: column;
   padding: 60px 0px 20px 40px;
   border-radius: 20px;
-  box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 13px 3px rgba(0,0,0,0.75);
 }
 
 article {
