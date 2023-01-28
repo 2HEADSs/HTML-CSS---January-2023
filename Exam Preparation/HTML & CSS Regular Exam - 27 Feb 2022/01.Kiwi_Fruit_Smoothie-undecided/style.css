@@ -32,6 +32,11 @@ section > div h1 {
   border-bottom: 2px dotted var(--clr-green);
 }
 
+section div h3{
+    font-style: italic;
+    font-weight: 400;
+}
+
 section .sub-title {
   width: 100%;
   padding-top: 6px;
