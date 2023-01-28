@@ -1,1 +1,71 @@
 /* •	Use the Google fonts PT Serif - (https://fonts.google.com/specimen/PT+Serif) */
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+
+:root {
+  --clr-green: rgb(4, 135, 4);
+}
+body {
+  font-family: "PT Serif", serif;
+}
+
+section {
+  position: relative;
+  display: flex;
+  margin-top: 100px;
+  width: 1000px;
+  height: 450px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 1);
+  background-image: url("./image/image1.png");
+  background-repeat: repeat-y;
+  padding: 20px;
+  /* flex-basis: 50%; */
+  gap: 20px;
+}
+
+section div {
+  width: 50%;
+}
+
+section > div h1 {
+  text-align: center;
+  border-bottom: 2px dashed var(--clr-green);
+  /* padding-bottom: 30px; */
+}
+
+section .sub-title {
+  width: 100%;
+  padding-top: 6px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+section div p > span {
+  color: var(--clr-green);
+  font-weight: bold;
+}
+section div .preparation {
+  margin: 40px auto;
+}
+
+section div .table {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid green;
+  text-align: center;
+}
+.table p:nth-child(1),
+.table p:nth-child(2),
+.table p:nth-child(4),
+.table p:nth-child(5) {
+  border-right: 1px solid green;
+}
+
+.table p:nth-child(1),
+.table p:nth-child(2),
+.table p:nth-child(3) {
+  border-bottom: 1px solid green;
+  font-weight: bold;
+}
