@@ -1,3 +1,54 @@
-/* 
-•	Use the Google fonts Mulish - (https://fonts.googleapis.com/css2?family=Mulish&display=swap)
- */
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+body {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  font-family: "Mulish", sans-serif;
+  position: relative;
+}
+
+article {
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../images/form-background.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px 20px 20px;
+  border-radius: 20px;
+}
+
+article > * {
+  width: 50%;
+}
+
+article form h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+article .names {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+article .names .names__name {
+  display: flex;
+  flex-direction: column;
+  width: 48%
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border-radius: 20px;
+  border: 1px solid rgb(96, 96, 96);
+}
