@@ -17,7 +17,7 @@ main {
   background-size: cover;
   display: flex;
   flex-direction: column;
-  padding: 50px 0px 20px 40px;
+  padding: 60px 0px 20px 40px;
   border-radius: 20px;
   box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.75);
 }
@@ -35,7 +35,7 @@ article > * {
 
 article form h1 {
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 20px;
@@ -56,21 +56,22 @@ article .names .names__name {
 form {
   display: flex;
   flex-direction: column;
-  color: rgb(55, 54, 54);
+  color: rgb(90, 89, 89);
+  font-size: 12px;
 }
 
 input {
   border-radius: 20px;
   border: 0.5px solid rgb(199, 198, 198);
-  margin-bottom: 12px;
-  padding: 4px;
+  margin-bottom: 14px;
+  padding: 6px;
 }
 
 label:not(:last-child) {
   margin-bottom: 4px;
 }
 .terms {
-  margin-bottom: 18px;
+  margin-bottom: 28px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -94,7 +95,7 @@ button {
   color: white;
   text-transform: uppercase;
   width: 35%;
-  padding: 6px 0px;
+  padding: 8px 0px;
   font-size: 10px;
   /* text-align: center; */
   margin: 0 auto;
