@@ -9,13 +9,15 @@ body {
 }
 
 section {
-  position: relative;
+  position: absolute;
   display: flex;
-  margin-top: 100px;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: 1000px;
   height: 450px;
-  left: 50%;
-  transform: translateX(-50%);
   box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 1);
   background-image: url("./image/image1.png");
   background-repeat: repeat-y;
@@ -24,7 +26,9 @@ section {
 }
 
 section div {
+  position: relative;
   width: 50%;
+  /* height: 100%; */
 }
 
 section > div h1 {
@@ -32,9 +36,9 @@ section > div h1 {
   border-bottom: 2px dotted var(--clr-green);
 }
 
-section div h3{
-    font-style: italic;
-    font-weight: 400;
+section div h3 {
+  font-style: italic;
+  font-weight: 400;
 }
 
 section .sub-title {
@@ -53,11 +57,13 @@ section div .preparation {
 }
 
 section div .table {
+  position: absolute;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, auto);
   border: 1px solid green;
   text-align: center;
+  bottom: 0;
 }
 .table p:nth-child(1),
 .table p:nth-child(2),
