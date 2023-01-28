@@ -46,14 +46,9 @@ section {
   flex-direction: column;
 }
 
-section img {
-  height: 47%;
-  object-fit: cover;
-}
 
 section div {
   margin: 20px;
-  height: 53%;
 }
 
 section div h3 {
