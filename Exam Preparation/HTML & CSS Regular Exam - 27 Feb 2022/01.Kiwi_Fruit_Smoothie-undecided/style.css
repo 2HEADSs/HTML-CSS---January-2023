@@ -30,7 +30,7 @@ section div {
 
 section > div h1 {
   text-align: center;
-  border-bottom: 2px dashed var(--clr-green);
+  border-bottom: 2px dotted var(--clr-green);
   /* padding-bottom: 30px; */
 }
 
@@ -52,7 +52,7 @@ section div .preparation {
 section div .table {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, auto);
   border: 1px solid green;
   text-align: center;
 }
