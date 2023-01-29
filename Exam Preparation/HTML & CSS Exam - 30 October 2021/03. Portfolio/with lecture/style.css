@@ -15,18 +15,18 @@ body {
   color: var(--clr-dark);
 }
 
-.divider{
-    background-color: var(--clr-dark);
+.divider {
+  background-color: var(--clr-dark);
 }
 
-.divider.divider--vertical{
-    width: 1px;
-    height: 5rem;
+.divider.divider--vertical {
+  width: 1px;
+  height: 5rem;
 }
 
-.divider.divider--horizontal{
-    width: 5rem;
-    height: 1px;
+.divider.divider--horizontal {
+  width: 5rem;
+  height: 1px;
 }
 /* 
 ----------------------------------
@@ -38,23 +38,24 @@ UTILITIES
   background-color: var(--clr-grey-light);
   padding: var(--pad-section);
   margin-bottom: 2rem;
-
+  height: 90vh;
 }
 
 .default-title {
   font-size: 3.5rem;
   font-weight: 300;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .default-title .accent {
   font-weight: bold;
 }
 
-.default-desc{
-    font-size: 1.25rem;
-    font-style: italic;
-    font-weight: bold;
+.default-desc {
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 2rem;
 }
 
 /* Header */
@@ -63,26 +64,65 @@ UTILITIES
 }
 
 /* Hero */
-#hero{
-    position: relative;
-    height: 80vh;
+#hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#hero .info {
+  width: 37%;
+}
+
+#hero .hero-img {
+  position: absolute;
+  bottom: 0px;
+  right: var(--pad-section);
+  width: 45%;
+}
+
+/* Purpose */
+
+#purpose{
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-#hero .info{
-    width: 45%;
+#purpose .info {
+  width: 50%;
 }
 
-#hero .info__desc {
-margin-bottom: 2rem;
+#purpose .purpose-img {
+  width: 37%;
+  margin-right: 6rem;
+  margin-left: auto;
 }
 
-#hero .hero-img{
-    position: absolute;
-    bottom: 0px;
-    right: var(--pad-section);
-    width: 45%;
+#purpose .title-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
+#purpose .title-wrapper .default-title {
+  margin-bottom: unset;
+  margin-left: 2.5rem;
+}
+#purpose .socials {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
 
+#purpose .socials .social__link {
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--clr-dark-sub);
+  color: var(--clr-white);
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
