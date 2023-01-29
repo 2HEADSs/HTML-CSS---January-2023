@@ -83,10 +83,10 @@ UTILITIES
 
 /* Purpose */
 
-#purpose{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+#purpose {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #purpose .info {
@@ -125,4 +125,16 @@ UTILITIES
   justify-content: center;
   align-items: center;
   text-decoration: none;
+}
+
+/* Poster */
+
+#poster .background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#poster.section{
+ padding: unset;   
 }
