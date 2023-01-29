@@ -21,7 +21,12 @@ body {
 
 .divider.divider--vertical{
     width: 1px;
-    height: 4rem;
+    height: 5rem;
+}
+
+.divider.divider--horizontal{
+    width: 5rem;
+    height: 1px;
 }
 /* 
 ----------------------------------
@@ -31,18 +36,25 @@ UTILITIES
 
 .section {
   background-color: var(--clr-grey-light);
-  padding: 5rem;
+  padding: var(--pad-section);
   margin-bottom: 2rem;
+
 }
 
-.title {
+.default-title {
   font-size: 3.5rem;
   font-weight: 300;
   margin-bottom: 2rem;
 }
 
-.title .accent {
+.default-title .accent {
   font-weight: bold;
+}
+
+.default-desc{
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: bold;
 }
 
 /* Header */
@@ -51,13 +63,26 @@ UTILITIES
 }
 
 /* Hero */
+#hero{
+    position: relative;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
 #hero .info{
     width: 45%;
 }
 
 #hero .info__desc {
-font-size: 1.5rem;
-font-style: italic;
+margin-bottom: 2rem;
+}
+
+#hero .hero-img{
+    position: absolute;
+    bottom: 0px;
+    right: var(--pad-section);
+    width: 45%;
 }
 
 
