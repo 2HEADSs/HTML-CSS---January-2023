@@ -6,7 +6,7 @@
   --clr-dark: #222222;
   --clr-dark-sub: #4c4c4c;
   --clr-white: #fff;
-  --pad-section: 4rem 6rem 6rem 6rem;
+  --pad-section: 6rem;
 }
 
 body {
@@ -222,6 +222,6 @@ UTILITIES
 }
 
 #contacts .bottom p{
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 500;
 }
