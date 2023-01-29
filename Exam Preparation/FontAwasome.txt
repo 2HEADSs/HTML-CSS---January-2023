@@ -7,3 +7,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
       src="https://kit.fontawesome.com/66543835c7.js"
       crossorigin="anonymous"
     ></script>
+
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+    />
