@@ -70,7 +70,17 @@ UTILITIES
 
 /* Header */
 #header {
-  display: none;
+  position: absolute;
+  z-index: 1;
+  right: 4rem;
+  top: 4rem;
+  font-size: 18px;
+}
+#header button{
+  border: none;
+}
+#header span{
+  margin-right: 1rem;
 }
 
 /* Hero */
