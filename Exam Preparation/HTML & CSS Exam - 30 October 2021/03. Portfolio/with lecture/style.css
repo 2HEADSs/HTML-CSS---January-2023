@@ -138,3 +138,17 @@ UTILITIES
 #poster.section {
   padding: unset;
 }
+
+/* featured */
+
+
+
+#featured .info.section--narrow{
+margin-right: 14rem;
+}
+
+#featured .title-wrapper .default-title {
+  margin-bottom: unset;
+  margin-left: 2.5rem;
+}
+
