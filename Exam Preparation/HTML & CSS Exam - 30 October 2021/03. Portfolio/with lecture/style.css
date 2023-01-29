@@ -38,7 +38,16 @@ UTILITIES
   background-color: var(--clr-grey-light);
   padding: var(--pad-section);
   margin-bottom: 2rem;
-  height: 90vh;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.section--wide {
+  width: 55%;
+}
+.section--narrow {
+  width: calc(45%-6rem);
 }
 
 .default-title {
@@ -83,15 +92,6 @@ UTILITIES
 
 /* Purpose */
 
-#purpose {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#purpose .info {
-  width: 50%;
-}
 
 #purpose .purpose-img {
   width: 37%;
@@ -135,6 +135,6 @@ UTILITIES
   object-fit: cover;
 }
 
-#poster.section{
- padding: unset;   
+#poster.section {
+  padding: unset;
 }
