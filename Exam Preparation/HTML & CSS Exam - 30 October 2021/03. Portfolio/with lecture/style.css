@@ -9,3 +9,9 @@
     --pad-section: 5rem;
   }
 
+  body {
+    padding: 2rem;
+    font-family: "Raleway", sans-serif;
+    color: var(--clr-dark);
+    
+  }
