@@ -6,7 +6,7 @@
   --clr-dark: #222222;
   --clr-dark-sub: #4c4c4c;
   --clr-white: #fff;
-  --pad-section: 6rem;
+  --pad-section: 4rem 6rem 6rem 6rem;
 }
 
 body {
@@ -159,5 +159,69 @@ UTILITIES
 #gallery img:nth-child(2) {
   transform: scale(1.5);
   z-index: 2;
+}
 
+/* Contacts */
+#contacts {
+  position: relative;
+  flex-direction: column;
+}
+#contacts .contacts-content {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contacts .default-title {
+  margin-bottom: 1.5rem;
+}
+
+#contacts .default-desc {
+  margin-bottom: 2.5rem;
+}
+#contacts .form {
+  width: 60%;
+  margin: 0 auto;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-areas:
+    "email subject"
+    "msg msg"
+    "btn btn";
+}
+
+#contacts .form .email {
+  grid-area: email;
+  border: 1px solid var(--clr-dark);
+  background-color: transparent;
+  padding: 0.5rem;
+}
+#contacts .form .subject {
+  grid-area: subject;
+  border: 1px solid var(--clr-dark);
+  background-color: transparent;
+  padding: 0.5rem;
+}
+#contacts .form .message {
+  grid-area: msg;
+  border: 1px solid var(--clr-dark);
+  background-color: transparent;
+  padding: 0.5rem;
+}
+#contacts .form button {
+  grid-area: btn;
+  border: 1px solid var(--clr-dark);
+  background-color: var(--clr-dark);
+  color: var(--clr-white);
+  padding: 0.5rem;
+}
+#contacts .bottom {
+  position: absolute;
+  bottom: 0px;
+  display: block;
+}
+
+#contacts .bottom p{
+  font-size: 10px;
+  font-weight: 500;
 }
