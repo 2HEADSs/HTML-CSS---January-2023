@@ -95,6 +95,7 @@ main .banner .banner__img img {
   z-index: 1;
   background-color: var(--clr-orange);
 }
+
 .banner .banner__info p {
   text-align: center;
   color: var(--clr-white);
@@ -105,7 +106,8 @@ main .banner .banner__img img {
   line-height: 42px;
   color: var(--clr-grey-txt2);
 }
-.banner .banner__info p span{
+
+.banner .banner__info p span {
   text-decoration: underline;
   color: var(--clr-white);
 }
