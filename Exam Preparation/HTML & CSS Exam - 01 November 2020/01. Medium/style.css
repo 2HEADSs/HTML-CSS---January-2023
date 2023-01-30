@@ -1,0 +1,11 @@
+section {
+  width: 80%;
+  height: 80vh;
+  margin: 20px auto;
+}
+h1 {
+font-family: Georgia, serif;
+}
+p{
+    font-family: Helvetica, sans-serif;
+}
