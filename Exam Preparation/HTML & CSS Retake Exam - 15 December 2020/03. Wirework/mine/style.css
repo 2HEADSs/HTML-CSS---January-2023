@@ -7,3 +7,48 @@
   --clr-green-dark: #1b9772;
   --clr-green-txt: #55b497;
 }
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 40px;
+  padding: 20px 0;
+}
+.logo {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+  color: var(--clr-grey-dark);
+}
+.logo h1 {
+  font-size: 52px;
+}
+.logo p {
+  font-size: 24px;
+}
+.divider {
+  height: 3.5rem;
+  border-left: 1px solid var(--clr-grey-txt);
+}
+
+ul {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+ul li {
+  background-color: var(--clr-grey-ligh);
+  padding: 30px 40px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--clr-grey-dark);
+}
