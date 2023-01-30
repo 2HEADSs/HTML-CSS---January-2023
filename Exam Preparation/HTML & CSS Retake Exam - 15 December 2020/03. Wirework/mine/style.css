@@ -1,27 +1,33 @@
 :root {
   --clr-grey-ligh: #ececec;
   --clr-grey-dark: #383838;
-  --clr-grey-txt: #686a62;
+  --clr-grey-txt: hsl(90, 1%, 45%);
+  --clr-grey-txt2: #eaebe7;
   --clr-orange: #e24e2a;
   --clr-green-ligh: #1b9772;
   --clr-green-dark: #1b9772;
   --clr-green-txt: #55b497;
+  --clr-white: #ffffff;
 }
 
 body {
   font-family: Helvetica, sans-serif;
+  position: relative;
+  background-color: var(--clr-white);
 }
-
+/* HEADER */
 header {
+  position: sticky;
+  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 40px;
-  padding: 20px 0;
+  padding: 20px 50px 40px 50px;
+  background-color: var(--clr-white);
 }
 .logo {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 20px;
   color: var(--clr-grey-dark);
 }
@@ -29,7 +35,9 @@ header {
   font-size: 52px;
 }
 .logo p {
-  font-size: 24px;
+  padding-top: 14px;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 .divider {
   height: 3.5rem;
@@ -45,21 +53,59 @@ ul {
 
 ul li {
   background-color: var(--clr-grey-ligh);
-  padding: 30px 40px ;
+  padding: 30px 40px;
 }
 
-ul li:nth-child(1){
-    background-color: var(--clr-orange);
+ul li:nth-child(1) {
+  background-color: var(--clr-orange);
 }
 
-ul li:nth-child(1) a{
-    color: white;
+ul li:nth-child(1) a {
+  color: var(--clr-white);
 }
 
 ul li a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 22px;
   color: var(--clr-grey-dark);
   letter-spacing: 2px;
   font-weight: 500;
+}
+
+/* ADVERRTISE */
+main .banner {
+  position: absolute;
+  top: -150px;
+  width: 100%;
+}
+
+main .banner .banner__img {
+  width: 100%;
+}
+
+main .banner .banner__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.banner .banner__info {
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+  background-color: var(--clr-orange);
+}
+.banner .banner__info p {
+  text-align: center;
+  color: var(--clr-white);
+  font-weight: 500;
+  font-size: 21px;
+  padding: 65px 200px 95px 200px;
+  letter-spacing: 1px;
+  line-height: 42px;
+  color: var(--clr-grey-txt2);
+}
+.banner .banner__info p span{
+  text-decoration: underline;
+  color: var(--clr-white);
 }
