@@ -38,17 +38,28 @@ header {
 
 ul {
   display: flex;
-  width: 60%;
+  /* width: 60%; */
   justify-content: space-between;
+  gap: 1.5px;
 }
 
 ul li {
   background-color: var(--clr-grey-ligh);
-  padding: 30px 40px;
+  padding: 30px 40px ;
+}
+
+ul li:nth-child(1){
+    background-color: var(--clr-orange);
+}
+
+ul li:nth-child(1) a{
+    color: white;
 }
 
 ul li a {
   text-decoration: none;
   font-size: 20px;
   color: var(--clr-grey-dark);
+  letter-spacing: 2px;
+  font-weight: 500;
 }
