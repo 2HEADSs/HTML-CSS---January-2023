@@ -12,7 +12,6 @@
 
 body {
   font-family: Helvetica, sans-serif;
-  position: relative;
   background-color: var(--clr-white);
 }
 /* HEADER */
@@ -46,7 +45,6 @@ header {
 
 .ul__header {
   display: flex;
-  /* width: 60%; */
   justify-content: space-between;
   gap: 1.5px;
 }
@@ -77,7 +75,6 @@ main{
   position: relative;
 }
 main .banner {
-  position: absolute;
   top: -150px;
   width: 100%;
   overflow: hidden;
@@ -120,5 +117,4 @@ main .banner .banner__img img {
 .icons ul{
   position: absolute;
   bottom: 0px;
-  z-index:;
 }
