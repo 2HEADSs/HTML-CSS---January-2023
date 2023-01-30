@@ -8,7 +8,7 @@ h1 {
   font-size: 80px;
 }
 
-p {
+p, button {
   font-family: Helvetica, sans-serif;
   font-size: 30px;
   color: gray;
@@ -34,6 +34,10 @@ header {
     font-weight: bold;
 }
 
+.info__desc .desc span{
+    background-color: #cefde9;
+  }
+
 .info .btn-div{
 width: 50%;
 position: relative;
@@ -42,8 +46,12 @@ position: relative;
 .info .btn-div button{
     position: absolute;
     bottom: 0px;
-    padding: 1rem 8rem;
+    padding: 1rem 6rem;
     background-color: #03a87c;
     color: white;
     font-size: 40px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
 }
+
