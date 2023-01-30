@@ -1,6 +1,9 @@
 :root {
-  --clr-ligh-grey: #ececec;
-  --clr-dark-grey: #383838;
+  --clr-grey-ligh: #ececec;
+  --clr-grey-dark: #383838;
+  --clr-grey-txt: #686a62;
   --clr-orange: #e24e2a;
-  --clr-green: #1b9772;
+  --clr-green-ligh: #1b9772;
+  --clr-green-dark: #1b9772;
+  --clr-green-txt: #55b497;
 }
