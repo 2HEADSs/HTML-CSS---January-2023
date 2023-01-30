@@ -44,27 +44,27 @@ header {
   border-left: 1px solid var(--clr-grey-txt);
 }
 
-ul {
+.ul__header {
   display: flex;
   /* width: 60%; */
   justify-content: space-between;
   gap: 1.5px;
 }
 
-ul li {
+.ul__header li {
   background-color: var(--clr-grey-ligh);
   padding: 30px 40px;
 }
 
-ul li:nth-child(1) {
+.ul__header li:nth-child(1) {
   background-color: var(--clr-orange);
 }
 
-ul li:nth-child(1) a {
+.ul__header li:nth-child(1) a {
   color: var(--clr-white);
 }
 
-ul li a {
+.ul__header li a {
   text-decoration: none;
   font-size: 22px;
   color: var(--clr-grey-dark);
@@ -73,10 +73,14 @@ ul li a {
 }
 
 /* ADVERRTISE */
+main{
+  position: relative;
+}
 main .banner {
   position: absolute;
   top: -150px;
   width: 100%;
+  overflow: hidden;
 }
 
 main .banner .banner__img {
@@ -110,4 +114,11 @@ main .banner .banner__img img {
 .banner .banner__info p span {
   text-decoration: underline;
   color: var(--clr-white);
+}
+
+
+.icons ul{
+  position: absolute;
+  bottom: 0px;
+  z-index:;
 }
