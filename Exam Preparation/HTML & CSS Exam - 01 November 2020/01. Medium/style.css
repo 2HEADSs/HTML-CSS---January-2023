@@ -4,17 +4,46 @@ section {
   margin: 50px auto;
 }
 h1 {
-font-family: Georgia, serif;
-font-size: 80px;
+  font-family: Georgia, serif;
+  font-size: 80px;
 }
 
-p{
-    font-family: Helvetica, sans-serif;
-    font-size: 30px;
-    color: gray;
+p {
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  color: gray;
 }
 
-header{
-    margin-bottom: 50px;
+header {
+  margin-bottom: 50px;
 }
 
+.info {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.info__desc {
+  width: 50%;
+}
+
+.info__desc .desc--heading{
+    margin-bottom: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.info .btn-div{
+width: 50%;
+position: relative;
+}
+
+.info .btn-div button{
+    position: absolute;
+    bottom: 0px;
+    padding: 1rem 8rem;
+    background-color: #03a87c;
+    color: white;
+    font-size: 40px;
+}
