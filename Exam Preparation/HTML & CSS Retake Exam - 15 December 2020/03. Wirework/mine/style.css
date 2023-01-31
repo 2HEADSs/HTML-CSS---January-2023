@@ -110,3 +110,51 @@ header {
   color: var(--clr-white);
   object-fit: cover;
 }
+
+/* ICONS SECTION */
+main .icons-section {
+  background-color: var(--clr-grey-dark);
+  color: var(--clr-white);
+  padding-bottom: 150px;
+}
+main .icons-section ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+main .icons-section ul li {
+  text-align: center;
+  margin-top: 90px;
+  justify-content: space-between;
+}
+
+main .icons-section ul li i {
+  padding: 46px;
+  background-color: var(--clr-orange);
+  font-size: 64px;
+  margin-bottom: 25px;
+}
+
+main .icons-section ul li div h2 {
+  font-size: 24px;
+  font-weight: 100;
+  margin-bottom: 32px;
+}
+
+main .icons-section ul li .divider__icons {
+  width: 80%;
+  align-items: center;
+  border-bottom: 2px solid var(--clr-grey-txt);
+  margin: 0 auto;
+}
+
+main .icons-section ul li div .p__icons {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 42px;
+  text-align: center;
+  line-height: 2;
+  color: var(--clr-orange);
+  font-size: 24px;
+}
