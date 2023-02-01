@@ -150,11 +150,11 @@ main .icons-section ul li .divider__icons {
 }
 
 main .icons-section ul li div .p__icons {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   margin-top: 42px;
   text-align: center;
-  line-height: 2;
+  line-height: 1.5;
   color: var(--clr-grey-txt);
   font-size: 24px;
 }
@@ -163,7 +163,7 @@ main .icons-section ul li div .p__icons {
 
 .white_bcg {
   padding: 100px 0px;
-  height: 30vh;
+  height: 40vh;
   background-color: var(--clr-white);
   text-align: center;
 }
@@ -194,11 +194,11 @@ main .icons-section ul li div .p__icons {
 /* FEATURES */
 
 .features {
-  height: 30vh;
+  height: 40vh;
   width: 100%;
   background-color: var(--clr-grey-dark);
 
-  gap: 10px;
+  gap: 8px;
 }
 
 .features ul {
@@ -210,13 +210,42 @@ main .icons-section ul li div .p__icons {
 }
 
 .features ul li {
-  width: 20%;
+  width: 24%;
   text-align: center;
 }
 
 .features ul li h2{
+  padding: 0 8px;
   color: var(--clr-white);
   font-size: 36px;
   font-weight: 300;
+}
 
+.features ul li p{
+  width: 100%;
+  margin-top: 60px;
+  color: var(--clr-grey-txt);
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 1.5;
+}
+
+/* FOOTER */
+
+footer{
+  height: 20vh;
+  background-color: var(--clr-green-dark);
+  text-align: center;
+  color: var(--clr-grey-ligh);
+  padding: 8vh;
+}
+
+footer p{
+  letter-spacing: 2.5px;
+  font-size: 20px;
+  color: var(--clr-grey-txt2);
+}
+
+footer p span{
+  color: var(--clr-white);
 }
