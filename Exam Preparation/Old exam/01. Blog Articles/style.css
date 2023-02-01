@@ -1,0 +1,32 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+body {
+  background-color: #66b9f8;
+}
+
+header {
+  text-align: center;
+  color: white;
+  margin-top: 200px;
+  font-weight: 600;
+}
+
+main section {
+  padding: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  /* width: 80%; */
+}
+
+main section article {
+  background-color: white;
+  width: 20%;
+  border-radius: 20px;
+}
+
+.img-wrapper > img {
+  width: 100%;
+  /* object-fit: contain; */
+}
