@@ -158,3 +158,65 @@ main .icons-section ul li div .p__icons {
   color: var(--clr-grey-txt);
   font-size: 24px;
 }
+
+/* WHITE_BCG */
+
+.white_bcg {
+  padding: 100px 0px;
+  height: 30vh;
+  background-color: var(--clr-white);
+  text-align: center;
+}
+
+.white_bcg h2 {
+  color: var(--clr-grey-dark);
+  font-size: 54px;
+  font-weight: 200;
+}
+
+.white_bcg p {
+  color: var(--clr-grey-txt2);
+  font-size: 32px;
+  font-weight: 200;
+}
+
+.white_bcg button {
+  margin-top: 36px;
+  font-size: 22px;
+  font-weight: 500;
+  background-color: var(--clr-green-dark);
+  color: var(--clr-white);
+  border: none;
+  padding: 18px 50px;
+  letter-spacing: 3px;
+}
+
+/* FEATURES */
+
+.features {
+  height: 30vh;
+  width: 100%;
+  background-color: var(--clr-grey-dark);
+
+  gap: 10px;
+}
+
+.features ul {
+  display: flex;
+  padding: 70px;
+  gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.features ul li {
+  width: 20%;
+  text-align: center;
+}
+
+.features ul li h2{
+  color: var(--clr-white);
+  font-size: 36px;
+  font-weight: 300;
+
+}
