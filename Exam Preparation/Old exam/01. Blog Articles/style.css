@@ -8,7 +8,7 @@ header {
   text-align: center;
   color: white;
   margin-top: 200px;
-  font-weight: 600;
+  font-size: 24px;
 }
 
 main section {
@@ -22,11 +22,61 @@ main section {
 
 main section article {
   background-color: white;
-  width: 20%;
+  width: 22%;
   border-radius: 20px;
+  overflow: hidden;
 }
 
 .img-wrapper > img {
   width: 100%;
   /* object-fit: contain; */
+}
+
+.info-div {
+  padding: 10px;
+}
+.info-div__header {
+  margin: unset;
+  color: orange;
+}
+
+.time {
+  display: flex;
+}
+
+.time img {
+  margin-right: 10px;
+}
+.time p {
+  margin-right: 30px;
+}
+
+.info-div .info {
+  margin: unset;
+  font-size: 18px;
+}
+
+.info-div button {
+  color: orange;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: transparent;
+  border: none;
+  margin-top: 10px;
+}
+
+footer {
+  position: relative;
+}
+
+footer>button{
+  position: absolute;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 30px;
+  color: white;
+  padding: 10px 30px;
+  right: 125px;
+  top: -80px;
+  font-size: 22px;
 }
