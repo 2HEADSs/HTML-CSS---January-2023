@@ -1,0 +1,40 @@
+@media(max-width:600px){
+    .navigation{
+        flex-direction: column;
+    }
+
+    .navigation-list{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-img-wrapper{
+        /* visibility: hidden; */
+        display: none;
+    }
+
+    .benefits{
+        flex-direction: column;
+    }
+
+    .cta-section{
+        width: 50%;
+    }
+
+    .info-section{
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 150px;
+    }
+
+    .info-section-item:not(:nth-child(1)){
+        margin-top: 65px;
+    }
+    .info-section-item{
+        width: 300px;
+    }
+    footer{
+        font-size: 17px;
+    }
+}
