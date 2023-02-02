@@ -48,6 +48,8 @@ header nav ul {
   background-color: var(--clr-orange);
   color: white;
   text-align: center;
+  box-shadow: inset rgb(0 0 0 / 44%) 0px 1px 3px 0px;
+
 }
 .teachers-sub-head .teachers__head {
   width: 45%;
@@ -213,10 +215,9 @@ header nav ul {
   font-weight: bold;
 }
 
-
 /* FOOTER */
 
-footer{
+footer {
   background-color: var(--clr-grey);
   color: white;
   border-top: 14px solid var(--clr-grey-light);
@@ -229,19 +230,20 @@ footer{
   /* gap: 30px; */
 }
 
-footer article h1{
+footer article h1 {
   margin-bottom: 20px;
 }
 
-footer article i{
+footer article i {
   font-size: 40px;
 }
-footer article i:last-of-type{
+footer article i:last-of-type {
   margin-left: 20px;
 }
 
-
-footer article p{
-   line-height: 40px;
-   font-size: 22px;
+footer article p {
+  line-height: 40px;
+  font-size: 22px;
 }
+
+
