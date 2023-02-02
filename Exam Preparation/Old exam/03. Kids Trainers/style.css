@@ -6,5 +6,32 @@
   --clr-grey: #565656;
   --clr-grey-light: #919191;
   --clr-grey-txt: #b4b9c1;
+}
 
+header {
+  background-color: var(--clr-green);
+  color: white;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  margin-left: 190px;
+} 
+
+header nav{
+  margin-right: 30px;
+}
+header nav ul{
+  display: flex;
+  gap: 40px;
+} 
+
+.nav__ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
 }
