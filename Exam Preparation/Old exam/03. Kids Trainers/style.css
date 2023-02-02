@@ -8,6 +8,8 @@
   --clr-grey-txt: #b4b9c1;
 }
 
+/* HEADER */
+
 header {
   background-color: var(--clr-green);
   color: white;
@@ -34,4 +36,30 @@ header nav ul{
   text-decoration: none;
   font-size: 22px;
   font-weight: bold;
+}
+
+/* MAIN */
+/* TEACHERS SECTION */
+
+.teachers{
+  height: 40vh;
+  background-color: var(--clr-orange);
+  color: white;
+  text-align: center;
+}
+.teachers .teachers__head{
+  width: 45%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.teachers .teachers__head h1{
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.teachers .teachers__head p{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.2;
 }
