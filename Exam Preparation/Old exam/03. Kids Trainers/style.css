@@ -64,9 +64,38 @@ header nav ul{
   line-height: 1.2;
 }
 
-/* TEACHER-FOCUSE */
+/* teachers */
+
+/* .teachers{
+  display: flex;
+} */
+.teachers-focused{
+  padding: 110px;
+  display: flex;
+  gap: 20px;
+}
+
+.teachers-focused__left,
+.teachers-focused__right{
+  display: flex;
+  gap: 30px;
+
+}
+
 
 .img_wrapper{
-  width: 50px;
-  height: 50px;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 8px solid var(--clr-blue);
 }
+
+.img_wrapper img{
+  object-fit: fill;
+}
+
+.teachers-focused__info{
+  width: 70%;
+}
+
