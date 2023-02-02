@@ -1,6 +1,7 @@
 :root {
   --clr-green: #41bead;
   --clr-orange: #ffb402;
+  --clr-orange-btn: #ff9100;
   --clr-blue: #66b9f8;
   --clr-blue-light: #92cdfb;
   --clr-grey: #565656;
@@ -21,17 +22,17 @@ header {
 
 header .logo {
   margin-left: 190px;
-} 
+}
 
-header nav{
+header nav {
   margin-right: 30px;
 }
-header nav ul{
+header nav ul {
   display: flex;
   gap: 40px;
-} 
+}
 
-.nav__ul li a{
+.nav__ul li a {
   color: white;
   text-decoration: none;
   font-size: 22px;
@@ -41,52 +42,51 @@ header nav ul{
 /* MAIN */
 /* TEACHERS SECTION */
 
-.teachers-sub-head{
+.teachers-sub-head {
   height: 40vh;
   background-color: var(--clr-orange);
   color: white;
   text-align: center;
 }
-.teachers-sub-head .teachers__head{
+.teachers-sub-head .teachers__head {
   width: 45%;
   margin: 0 auto;
   padding-top: 70px;
 }
 
-.teachers-sub-head .teachers__head h1{
+.teachers-sub-head .teachers__head h1 {
   font-size: 60px;
   margin-bottom: 15px;
 }
 
-.teachers-sub-head .teachers__head p{
+.teachers-sub-head .teachers__head p {
   font-size: 24px;
   font-weight: 500;
   line-height: 1.2;
 }
 
 /* leaders */
-.leaders{
+.leaders {
   margin-bottom: 250px;
 }
 
-.leaders-focused{
+.leaders-focused {
   padding: 90px;
   display: flex;
   gap: 20px;
 }
 
 .leaders-focused__left,
-.leaders-focused__right{
+.leaders-focused__right {
   display: flex;
   gap: 30px;
 }
 
-.leaders-focused__left{
+.leaders-focused__left {
   margin-left: 50px;
 }
 
-
-.img_wrapper{
+.img_wrapper {
   width: 200px;
   height: 190px;
   border-radius: 100%;
@@ -94,25 +94,25 @@ header nav ul{
   border: 8px solid var(--clr-green);
 }
 
-.img_wrapper img{
-object-position: center;
+.img_wrapper img {
+  object-position: center;
 }
 
-.leaders-focused__info{
+.leaders-focused__info {
   width: 80%;
 }
 
-.teachers-focused__info h2{
+.teachers-focused__info h2 {
   color: var(--clr-green);
   font-size: 32px;
 }
 
-.leaders-focused__info .position{
+.leaders-focused__info .position {
   color: var(--clr-grey-txt);
   font-size: 18px;
   margin-bottom: 20px;
 }
-.leaders-focused__info .info{
+.leaders-focused__info .info {
   font-size: 21px;
   color: var(--clr-grey-light);
   font-weight: 400;
@@ -121,10 +121,10 @@ object-position: center;
 
 /* TEACHERS */
 
-.teachers{
+.teachers {
   padding-bottom: 150px;
 }
-.teachers__ul{
+.teachers__ul {
   display: flex;
   gap: 130px;
   justify-content: center;
@@ -132,39 +132,80 @@ object-position: center;
   margin: 150px auto;
 }
 
-.teachers__ul li{
+.teachers__ul li {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.teachers__ul .teachers__div__img-wrapper{
+.teachers__ul .teachers__div__img-wrapper {
   width: 250px;
   height: 250px;
   overflow: hidden;
   border-radius: 50%;
   border: 8px solid var(--clr-green);
-
 }
 
-.teachers__ul .teachers__div__img-wrapper img{
+.teachers__ul .teachers__div__img-wrapper img {
   object-fit: contain;
 }
 
-
-.teachers__ul li .teacher-name{
+.teachers__ul li .teacher-name {
   margin-top: 20px;
   color: var(--clr-green);
   font-size: 24px;
   font-weight: bold;
 }
 
-
-.teachers__ul li p{
+.teachers__ul li p {
   color: var(--clr-grey-light);
   font-weight: bold;
 }
 
-/* 
-  color: var(--clr-grey-light);
- */
+/* TEAM */
+
+.team {
+  border-top: 14px solid var(--clr-blue-light);
+  background-color: var(--clr-blue);
+  color: white;
+}
+.team h1 {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 48px;
+}
+.team p {
+  width: 55%;
+  text-align: center;
+  font-size: 22px;
+  margin: 0 auto;
+}
+
+.team .team-reg {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  padding-bottom: 200px;
+  background-color: transparent;
+}
+.team .team-reg input {
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 6px;
+  padding: 16px;
+  color: white;
+  font-size: 22px;
+}
+
+.team .team-reg button {
+  height: 50px;
+  margin: auto 0;
+  background-color: var(--clr-orange-btn);
+  border: none;
+  border-radius: 30px;
+  padding: 2px 32px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
