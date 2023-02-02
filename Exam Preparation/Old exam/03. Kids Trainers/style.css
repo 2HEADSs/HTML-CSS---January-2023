@@ -1,3 +1,4 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
 :root {
   --clr-green: #41bead;
   --clr-orange: #ffb402;
@@ -210,4 +211,37 @@ header nav ul {
   color: white;
   font-size: 20px;
   font-weight: bold;
+}
+
+
+/* FOOTER */
+
+footer{
+  background-color: var(--clr-grey);
+  color: white;
+  border-top: 14px solid var(--clr-grey-light);
+  /* display: flex;
+  justify-content: center;
+  gap: 100px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 50px 50px 50px 150px;
+  /* gap: 30px; */
+}
+
+footer article h1{
+  margin-bottom: 20px;
+}
+
+footer article i{
+  font-size: 40px;
+}
+footer article i:last-of-type{
+  margin-left: 20px;
+}
+
+
+footer article p{
+   line-height: 40px;
+   font-size: 22px;
 }
