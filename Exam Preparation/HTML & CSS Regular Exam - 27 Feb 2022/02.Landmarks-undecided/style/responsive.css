@@ -47,4 +47,15 @@
     #right-aside{
         width: unset;
     }
+
+    /* footer */
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer ul:nth-child(2) li:nth-child(2){
+        display: flex;
+    }
 }
+
