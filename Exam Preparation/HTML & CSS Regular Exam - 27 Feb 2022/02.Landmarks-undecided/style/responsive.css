@@ -20,4 +20,13 @@
         justify-content: center;
         align-items: center;
     }
+
+    /* main */
+
+    #left-aside{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
 }
