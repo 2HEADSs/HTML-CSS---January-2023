@@ -178,6 +178,7 @@ margin-top: 30px;
     font-size: 32px;
     font-weight: 100;
 }
+
 #subscribe .subscribe__divider{
     border-bottom: 4px solid #fcfbfb;
     width: 120px;
@@ -213,4 +214,48 @@ margin-top: 30px;
     padding: 10px 50px;
 }
 
+
+
 /* LINKS */
+#links{
+    display: flex;
+    background-color: #323232;
+    color: rgb(219, 218, 218);
+    gap:200px;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 140px;
+    padding-bottom: 80px;
+}
+
+#links article{
+    line-height: 2.4;
+}
+
+#links article h4{
+    font-size: 18px;
+}
+
+#links article i{
+    font-size: 20px;
+}
+
+#links article i:nth-child(3){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    color: rgb(219, 218, 218);  
+    background-color: #1f1f1f;
+    padding-top: 14px;
+    font-size: 18px;
+}
+
+footer p span{
+    color: #008cba;
+}
