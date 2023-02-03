@@ -1,7 +1,7 @@
 body{
     font-family: Helvetica, sans-serif;
 }
-
+/* HEADER */
 header{
     display: flex;
     justify-content: space-between;
@@ -28,4 +28,40 @@ header ul li a{
 }
 header ul .active{
     border-bottom: 4px solid #008cba;
+}
+
+/* MAIN */
+/* IMG-ADVERTISE */
+#img-advertise{
+    position: relative;
+}
+
+#img-advertise .img-wrapper{
+    width: 100%;
+}
+#img-advertise .img-wrapper img{
+    width: 100%;
+    object-fit: cover;
+}
+
+#img-advertise .form-div{
+    position: absolute;
+    top: 265px;
+    left: 220px;
+    background-color: rgb(0 0 0 / 36%);
+    color: white;
+    font-size: 58px;
+    padding: 23px;
+}
+#img-advertise .form-div p{
+    line-height: 1.2;
+}
+
+#img-advertise .form-div button{
+    background-color: #008cba;
+    color: white;
+    font-size: 36px;
+    border-radius: 50px;
+    border: none;
+    padding: 6px 54px;
 }
