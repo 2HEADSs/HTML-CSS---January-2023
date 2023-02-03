@@ -28,5 +28,18 @@
         justify-content: space-around;
     }
 
-    
+    #left-aside article{
+        border: none;
+    }
+
+    /* news */
+    #news{
+        display: flex;
+        flex-direction: column;
+        width: unset;
+        margin: 10px;
+    }
+    #news article{
+        width: unset;
+    }
 }
