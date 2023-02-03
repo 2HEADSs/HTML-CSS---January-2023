@@ -42,4 +42,9 @@
     #news article{
         width: unset;
     }
+
+    /* right-aside */
+    #right-aside{
+        width: unset;
+    }
 }
