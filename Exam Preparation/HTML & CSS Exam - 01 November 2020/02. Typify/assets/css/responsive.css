@@ -1,0 +1,14 @@
+@media (max-width: 600px) {
+  .banner {
+    padding: 60px 20px;
+  }
+
+  .banner h2 {
+    width: unset;
+    font-size: 2em;
+  }
+
+  .button.special{
+    width: 100%;
+  }
+}
