@@ -1,32 +1,91 @@
 @media (max-width: 600px) {
-  .banner {
-    padding: 60px 20px;
-  }
 
-  .banner h2 {
-    width: unset;
-    font-size: 2em;
-  }
-
-  .button.special {
-    width: 100%;
-  }
+  /* banner */
+.banner{
+  padding: 60px 20px;
 }
 
-.inner {
-  display: flex;
+.banner h2{
+  width: 100%;
+  margin: 0px;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.banner .actions{
+margin: 0px;
+}
+
+.banner .actions li {
+  width: 100%;
+}
+
+.banner .actions li a{
+  width: 100%;
+}
+
+/* wrapper */
+
+.wrapper.special{
+  padding: 20px 10px;
+}
+
+.wrapper .inner{
+  width: 100%;
+}
+
+.wrapper.special .inner .major{
+  margin-bottom: 0px;
+}
+
+.wrapper.special .inner .features{
   flex-direction: column;
-  align-items: center;
-  width: unset;
+}
+
+.wrapper.special .inner .features .feature{
+  width: 100%;
 }
 
 
-.features {
+
+/* WRAPPER STYLE2 */
+
+.wrapper.style2.special .inner.narrow{
+  width: 100%;
+}
+
+.grid-form{
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-.features .feature{
-    width: 100%;
+
+.grid-form .form-control.narrow{
+  width: 100%;
 }
+
+.grid-form .actions li{
+  width: 100%;
+}
+
+.grid-form .actions li input{
+  width: 100%;
+}
+
+/* FOOTER */
+
+footer.footer{
+  padding: 1em 0 1em 0;
+}
+
+footer.footer::before{
+  width:86%;
+  left: 7%;
+  text-align: center;
+  /* margin: 0px auto; */
+}
+
+footer.footer .copyright{
+  margin: 0px;
+}
+}
+
