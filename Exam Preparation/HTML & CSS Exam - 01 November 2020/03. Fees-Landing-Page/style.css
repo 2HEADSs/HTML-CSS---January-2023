@@ -21,16 +21,94 @@ p {
   font-family: "Lato", sans-serif;
 }
 
+/* header */
 
-header{
-    height: 80px;
-    display: flex;
-    padding: 20px 80px;
-    justify-content: space-between;
-
+header {
+  height: 80px;
+  display: flex;
+  padding: 20px 80px;
+  justify-content: space-between;
 }
 
-header nav ul{
-    display: flex;
-    gap: 20px;
+header nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+/* main */
+/* taxes */
+
+.taxes {
+  background-color: grey;
+  text-align: center;
+  padding: 80px 0px 20px 0px;
+  color: white;
+  height: 450px;
+}
+.taxes img {
+  display: inline-block;
+  position: absolute;
+  left: -90px;
+  height: 300px;
+}
+.taxes h1 {
+  display: inline-block;
+  font-weight: 500;
+}
+
+.taxes__card-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 0px 40px;
+  gap: 40px;
+  position: absolute;
+  top: 290px;
+  background-color: transparent;
+  z-index: 1;
+  text-align: center;
+}
+
+.taxes__card-wrapper > * {
+  width: 28%;
+  background-color: white;
+  color: rgb(84, 83, 83);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.taxes__card-wrapper article h2{
+    padding-top: 20px;
+}
+
+.card-first button {
+  background-color: rgb(195, 99, 195);
+  color: white;
+  font-size: 13px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  margin: 40px 0px 40px 0px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  padding: 8px 26px;
+  border: none;
+}
+.card-first .bottom {
+  background-image: linear-gradient(
+    to right,
+    #029a3c,
+    #1da94d,
+    #2eb85e,
+    #3dc76f,
+    #4bd680
+  );
+  color: white;
+}
+
+.card-first .bottom h3{
+    padding: 14px;
+}
+
+.card-first .bottom p{
+    padding-bottom: 14px;
 }
