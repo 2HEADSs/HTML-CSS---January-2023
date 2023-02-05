@@ -193,41 +193,89 @@ header nav ul li a {
   margin-top: 320px;
 }
 
-.education h2{
+.education h2 {
   font-size: 28px;
-  font-weight:500;
+  font-weight: 500;
   margin-bottom: 30px;
 }
-.education>p{
+.education > p {
   font-size: 22px;
   margin-bottom: 30px;
 }
 
-.education .table-wrapper{
+.education .table-wrapper {
   background-color: #e4ea31;
   border-radius: 10px 0px 10px 10px;
   overflow: hidden;
 }
-.education .table-wrapper ul li{
-display: flex;
-padding: 16px 120px 16px 16px;
-justify-content: space-between;
+.education .table-wrapper ul li {
+  display: flex;
+  padding: 16px 120px 16px 16px;
+  justify-content: space-between;
 }
 
-.education .table-wrapper ul li p{
+.education .table-wrapper ul li p {
   font-size: 24px;
   width: 65%;
 }
 
-.education .table-wrapper ul li:nth-child(odd){
+.education .table-wrapper ul li:nth-child(odd) {
   background-color: #e6e6e6;
 }
 
-.education .table-wrapper ul li:nth-child(even){
+.education .table-wrapper ul li:nth-child(even) {
   background-color: #f8f8f8;
 }
- ul li img{
+ul li img {
   height: auto;
   width: 30px;
+}
 
+/* post-bank */
+
+.post-bank {
+  color: #54546d;
+  width: 88%;
+  margin: 0 auto;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+}
+
+.post-bank .bank-info {
+  width: 67%;
+}
+
+.post-bank .bank-info h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.post-bank .bank-info p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.post-bank img {
+  height: 150px;
+  /* width: 500px; */
+}
+
+/* footer */
+
+footer {
+  margin-top: 150px;
+  height: 100px;
+  background-color: #54546d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+footer p{
+  color: #8c8ca8;
+  font-size: 22px;
 }
