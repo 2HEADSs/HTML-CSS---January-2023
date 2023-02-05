@@ -31,19 +31,18 @@ header {
   align-items: center;
 }
 
-header img{
-    height: 60px;
+header img {
+  height: 60px;
 }
 
 header nav ul {
   display: flex;
   gap: 20px;
-
 }
-header nav ul li a{
-    color: #54546d;
-    font-weight: 600;
-    font-size: 20px;
+header nav ul li a {
+  color: #54546d;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 /* main */
@@ -57,14 +56,14 @@ header nav ul li a{
   height: 450px;
 }
 .taxes img {
-    color: #9b5dc6;
+  color: #9b5dc6;
   display: inline-block;
   position: absolute;
   left: -90px;
   height: 280px;
 }
 .taxes h1 {
-    font-size: 42px;
+  font-size: 42px;
   display: inline-block;
   font-weight: 500;
 }
@@ -88,18 +87,19 @@ header nav ul li a{
   border-radius: 10px;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  height: 445px;
 }
 
-.taxes__card-wrapper article h2{
-    padding-top: 40px;
-    font-size: 32px;
-    font-weight: 600;
+.taxes__card-wrapper article h2 {
+  padding-top: 40px;
+  font-size: 32px;
+  font-weight: 600;
 }
 
-.taxes__card-wrapper article p{
-    margin-top: 10px;
-    font-size: 22px;
-    letter-spacing: 1px;
+.taxes__card-wrapper article p {
+  margin-top: 10px;
+  font-size: 22px;
+
 }
 
 /* card-first */
@@ -128,18 +128,67 @@ header nav ul li a{
   color: white;
 }
 
-.card-first .bottom h3{
-    padding: 18px;
-    font-size: 32px;
-    font-weight: 500;
+.card-first .bottom h3 {
+  padding: 18px;
+  font-size: 32px;
+  font-weight: 500;
 }
 
-.card-first .bottom p{
-    padding-bottom: 20px;
+.card-first .bottom p {
+  padding-bottom: 40px;
 }
 
-/* card-second */
 
-.card-second{
+/* card-payd */
 
+.card-payd .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  font-size: 22px;
+  color: white;
+  padding-top: 20px;
+}
+
+.card-payd .bottom > * {
+  text-align: center;
+}
+.blue {
+  background-image: linear-gradient(
+    to right,
+    #56738d,
+    #597d9d,
+    #5c86ad,
+    #5f90be,
+    #629acf
+  );
+  padding-bottom: 90px;
+}
+.blue .divider {
+  height: 130px;
+  border: 2px solid rgb(255, 255, 255);
+}
+.purple {
+  background-image: linear-gradient(
+    to right,
+    #4a37a5,
+    #5b48b4,
+    #6b5ac3,
+    #7c6bd2,
+    #8c7de1
+  );
+  padding-bottom: 90px;
+}
+
+.purple .divider {
+  height: 130px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+/* EDUCATION */
+
+.education {
+  margin-top: 320px;
+  color: #54546d;
 }
