@@ -57,12 +57,14 @@ header nav ul li a{
   height: 450px;
 }
 .taxes img {
+    color: #9b5dc6;
   display: inline-block;
   position: absolute;
   left: -90px;
-  height: 300px;
+  height: 280px;
 }
 .taxes h1 {
+    font-size: 42px;
   display: inline-block;
   font-weight: 500;
 }
@@ -71,7 +73,7 @@ header nav ul li a{
   display: flex;
   justify-content: center;
   padding: 0px 40px;
-  gap: 40px;
+  gap: 32px;
   position: absolute;
   top: 290px;
   background-color: transparent;
@@ -80,29 +82,38 @@ header nav ul li a{
 }
 
 .taxes__card-wrapper > * {
-  width: 28%;
+  width: 29%;
   background-color: white;
-  color: rgb(84, 83, 83);
+  color: #54546d;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .taxes__card-wrapper article h2{
-    padding-top: 20px;
+    padding-top: 40px;
+    font-size: 32px;
+    font-weight: 600;
 }
-/* first card */
+
+.taxes__card-wrapper article p{
+    margin-top: 10px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+/* card-first */
 
 .card-first button {
   background-color: #9a5dc6;
   color: white;
-  font-size: 13px;
+  font-size: 20px;
   font-family: "Lato", sans-serif;
   font-weight: 600;
-  margin: 40px 0px 40px 0px;
+  margin: 44px 0px 40px 0px;
   border-radius: 50px;
   text-transform: uppercase;
-  padding: 8px 26px;
+  padding: 16px 38px;
   border: none;
 }
 .card-first .bottom {
@@ -118,9 +129,17 @@ header nav ul li a{
 }
 
 .card-first .bottom h3{
-    padding: 14px;
+    padding: 18px;
+    font-size: 32px;
+    font-weight: 500;
 }
 
 .card-first .bottom p{
-    padding-bottom: 14px;
+    padding-bottom: 20px;
+}
+
+/* card-second */
+
+.card-second{
+
 }
