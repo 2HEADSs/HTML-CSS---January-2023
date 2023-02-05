@@ -24,22 +24,33 @@ p {
 /* header */
 
 header {
-  height: 80px;
+  height: 100px;
   display: flex;
   padding: 20px 80px;
   justify-content: space-between;
+  align-items: center;
+}
+
+header img{
+    height: 60px;
 }
 
 header nav ul {
   display: flex;
   gap: 20px;
+
+}
+header nav ul li a{
+    color: #54546d;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 /* main */
 /* taxes */
 
 .taxes {
-  background-color: grey;
+  background-color: #54546d;
   text-align: center;
   padding: 80px 0px 20px 0px;
   color: white;
@@ -80,9 +91,10 @@ header nav ul {
 .taxes__card-wrapper article h2{
     padding-top: 20px;
 }
+/* first card */
 
 .card-first button {
-  background-color: rgb(195, 99, 195);
+  background-color: #9a5dc6;
   color: white;
   font-size: 13px;
   font-family: "Lato", sans-serif;
