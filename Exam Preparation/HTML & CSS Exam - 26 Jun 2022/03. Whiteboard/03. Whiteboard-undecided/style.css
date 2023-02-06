@@ -1,17 +1,56 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
 
-body{
-    padding: 0px 50px;
+body {
+  padding: 0px 110px;
 }
-header{
-    background-image: url("image/computer-main.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    bac
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 600px;
-    color: white;
+header {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(34, 34, 34, 0.62),
+      rgba(71, 71, 71, 0.23)
+    ),
+    url("image/computer-main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: white;
+  height: 700px;
+}
+
+header .icons {
+  margin: 40px 300px 10px 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 28px;
+}
+
+header h1 {
+  margin-bottom: 40px;
+  font-size: 68px;
+}
+
+header p {
+  font-size: 28px;
+  width: 34%;
+  line-height: 1.4;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+header button{
+  color: white;
+  background-color:#00d08e;
+  padding: 6px 22px;
+  font-size: 28px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 76px;
+
 }
