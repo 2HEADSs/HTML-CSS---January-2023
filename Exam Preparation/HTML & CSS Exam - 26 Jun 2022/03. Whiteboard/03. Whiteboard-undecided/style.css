@@ -54,5 +54,36 @@ header button{
   border: none;
   border-radius: 6px;
   margin-bottom: 76px;
+}
 
+/* main */
+/* ledt-img */
+
+.left-img{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.left-img .hustle-what{
+  padding: 30px 70px;
+}
+
+.left-img .hustle-what h2{
+  font-size: 48px;
+}
+
+.left-img .hustle-what h4{
+  font-size: 30px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+.left-img .hustle-what p{
+  margin-top: 24px;
+  font-size: 26px;
+}
+
+.left-img .hustle-what p span{
+  color: #00d08e;
+  margin-right: 40px;
 }
