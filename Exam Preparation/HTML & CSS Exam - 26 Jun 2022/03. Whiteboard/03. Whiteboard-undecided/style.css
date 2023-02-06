@@ -113,7 +113,7 @@ header button {
   margin-top: 30px;
 }
 
-.right-img .hustle .all-tasks-wrapper{
+.right-img .hustle .all-tasks-wrapper {
   width: 70%;
   margin: 0px 90px;
   display: grid;
@@ -122,10 +122,56 @@ header button {
   justify-content: space-between;
 }
 
-
-.right-img .hustle .all-tasks-wrapper .task-wrapper p{
+.right-img .hustle .all-tasks-wrapper .task-wrapper p {
   color: #00d08e;
   font-size: 32px;
   text-align: center;
   font-weight: 800;
+}
+
+/* bottom-section */
+.bottom-section {
+  background-color: #b2f1dd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom-section h2 {
+  font-size: 48px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.bottom-section .article-bottom-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:  80px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 160px;
+  text-align: center;
+}
+
+.bottom-section .article-bottom-wrapper >*{
+  margin-top: 0px;
+  height: 200px;
+}
+.bottom-section .article-bottom-wrapper h4 {
+  font-size: 28px;
+}
+
+.bottom-section .article-bottom-wrapper p {
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.bottom-p{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+.bottom-p span{
+  font-weight: bold;
 }
