@@ -45,9 +45,9 @@ header p {
   margin-bottom: 64px;
 }
 
-header button{
+header button {
   color: white;
-  background-color:#00d08e;
+  background-color: #00d08e;
   padding: 6px 22px;
   font-size: 28px;
   font-weight: 600;
@@ -57,33 +57,75 @@ header button{
 }
 
 /* main */
-/* ledt-img */
+/* left-img */
 
-.left-img{
+.left-img {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.left-img .hustle-what{
+.left-img .hustle-what {
   padding: 30px 70px;
 }
 
-.left-img .hustle-what h2{
+.left-img .hustle-what h2 {
   font-size: 48px;
 }
 
-.left-img .hustle-what h4{
+.left-img .hustle-what h4 {
   font-size: 30px;
   line-height: 1.4;
   margin-bottom: 30px;
 }
 
-.left-img .hustle-what p{
+.left-img .hustle-what p {
   margin-top: 24px;
   font-size: 26px;
 }
 
-.left-img .hustle-what p span{
+.left-img .hustle-what p span {
   color: #00d08e;
   margin-right: 40px;
+}
+
+/* right-img */
+
+.right-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+}
+
+.right-img img {
+  width: 100%;
+  height: auto;
+}
+
+.right-img .hustle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.right-img .hustle h2 {
+  font-size: 48px;
+  margin-top: 30px;
+}
+
+.right-img .hustle .all-tasks-wrapper{
+  width: 70%;
+  margin: 0px 90px;
+  display: grid;
+  grid-template-columns: repeat(3, 20%);
+  gap: 60px 80px;
+  justify-content: space-between;
+}
+
+
+.right-img .hustle .all-tasks-wrapper .task-wrapper p{
+  color: #00d08e;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 800;
 }
