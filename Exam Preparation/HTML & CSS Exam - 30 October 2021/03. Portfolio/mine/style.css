@@ -7,6 +7,7 @@ body {
 section {
   background-color: #efefef;
   margin: 40px;
+  height: 800px;
 }
 
 /* top section */
@@ -164,4 +165,22 @@ section.camera-woman{
 .about__content-wrapper .divider {
   height: 90px;
   border-left: 1px solid black;
+}
+
+/* img section */
+section.img{
+  padding: 120px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+
+section.img img{
+  width: 33%;
+  height: auto;
+}
+
+section.img img:nth-child(2){
+  transform: scale(1.5);
 }
