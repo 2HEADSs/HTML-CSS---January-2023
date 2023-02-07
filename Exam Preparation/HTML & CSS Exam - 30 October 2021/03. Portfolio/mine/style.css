@@ -123,3 +123,45 @@ section.camera-woman{
   height: 100%;
   object-fit: cover;
 }
+
+/* about */
+
+.about {
+  display: flex;
+  padding: 120px;
+  gap: 30px;
+}
+
+.about img{
+  width: 60%;
+}
+
+
+.about__content-wrapper {
+  /* align-self: center; */
+  padding: 90px 90px 0px 0px;
+}
+
+.about__content-wrapper h2 {
+  padding-top: 50px;
+  font-size: 52px;
+  font-weight: 100;
+}
+
+.about__content-wrapper h2 span {
+  font-weight: 700;
+}
+
+
+.about__content-wrapper p{
+    margin-top: 30px;
+    line-height: 1.8;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.about__content-wrapper .divider {
+  height: 90px;
+  border-left: 1px solid black;
+}
