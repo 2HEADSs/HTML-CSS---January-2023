@@ -56,3 +56,35 @@ section {
   margin-top: 60px;
   /* margin-right: 80px; */
 }
+/* name */
+
+.name{
+    display: flex;
+}
+.name img{
+    width: 60%;
+    height: 60%;
+    padding: 100px;
+}
+.name .name__content-wrapper{
+    margin: 140px;
+}
+.name .name__content-wrapper .header-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.name .name__content-wrapper .header-wrapper .divider{
+width: 90px;
+border-bottom: 1px solid black;
+}
+
+.name .name__content-wrapper .header-wrapper h2{
+    font-size: 52px;
+    font-weight: 100;
+}
+
+.name .name__content-wrapper .header-wrapper h2 span{
+    font-weight: 700;
+}
