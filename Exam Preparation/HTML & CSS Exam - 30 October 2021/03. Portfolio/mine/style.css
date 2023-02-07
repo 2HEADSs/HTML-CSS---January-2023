@@ -217,7 +217,7 @@ section.img img:nth-child(2) {
   padding: 8px;
   border: 1px solid black;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
 
 }
 
@@ -229,7 +229,7 @@ section.img img:nth-child(2) {
   margin-bottom: 30px;
   border: 1px solid black;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   height: 200px;
 
 }
