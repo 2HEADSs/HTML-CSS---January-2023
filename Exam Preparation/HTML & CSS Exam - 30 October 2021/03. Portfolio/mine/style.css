@@ -1,0 +1,42 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+section {
+  background-color: #efefef;
+  margin: 40px;
+}
+
+/* top section */
+.top {
+display: flex;
+padding: 20px 50px 0px 20px;
+}
+.menu-wrapper {
+display: flex;
+align-items: center;
+gap: 20px;
+align-self: flex-start;
+font-size: 24px;
+}
+
+.top .top__content-wrapper {
+    align-self: center;
+}
+
+.top .top__content-wrapper h2{
+    font-size: 52px;
+    font-weight: 100;
+}
+.top .top__content-wrapper h2 span{
+
+}
+
+.top .top__content-wrapper .divider{
+    height: 90px;
+    border-left: 1px solid black;
+}
+
+.top img{
+width: 50%;
+margin-top: 60px;
+/* margin-right: 80px; */
+}
