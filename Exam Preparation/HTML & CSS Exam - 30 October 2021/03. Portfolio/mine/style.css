@@ -1,5 +1,9 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+body {
+  font-family: "Raleway", sans-serif;
+}
 section {
   background-color: #efefef;
   margin: 40px;
@@ -7,36 +11,41 @@ section {
 
 /* top section */
 .top {
-display: flex;
-padding: 20px 50px 0px 20px;
+  display: flex;
+  padding: 20px 50px 0px 20px;
 }
 .menu-wrapper {
-display: flex;
-align-items: center;
-gap: 20px;
-align-self: flex-start;
-font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: flex-start;
+  font-size: 24px;
 }
 
 .top .top__content-wrapper {
-    align-self: center;
+  align-self: center;
 }
 
-.top .top__content-wrapper h2{
-    font-size: 52px;
-    font-weight: 100;
+.top .top__content-wrapper h2 {
+  font-size: 52px;
+  font-weight: 100;
 }
+
 .top .top__content-wrapper h2 span{
+  font-weight: 700;
 
 }
 
-.top .top__content-wrapper .divider{
-    height: 90px;
-    border-left: 1px solid black;
+.top .top__content-wrapper h2 span {
 }
 
-.top img{
-width: 50%;
-margin-top: 60px;
-/* margin-right: 80px; */
+.top .top__content-wrapper .divider {
+  height: 90px;
+  border-left: 1px solid black;
+}
+
+.top img {
+  width: 50%;
+  margin-top: 60px;
+  /* margin-right: 80px; */
 }
