@@ -1,0 +1,27 @@
+/* •	Use font Poppins for the headings (https://fonts.google.com/specimen/Poppins) 
+•	Use font Open Sans for the paragraphs: (https://fonts.google.com/specimen/Open+Sans) 
+ */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  padding: 20px 300px;
+  justify-content: space-between;
+  height: 80px;
+}
+
+header nav ul {
+  display: flex;
+}
