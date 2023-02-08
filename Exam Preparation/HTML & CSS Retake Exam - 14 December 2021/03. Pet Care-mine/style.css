@@ -11,17 +11,81 @@ h5,
 h6 {
   font-family: "Poppins", sans-serif;
 }
-p {
+
+p,
+a,
+button {
   font-family: "Open Sans", sans-serif;
 }
 
+/* header */
 header {
   display: flex;
-  padding: 20px 300px;
+  padding: 30px 370px 0px 370px;
   justify-content: space-between;
-  height: 80px;
+  height: 100px;
 }
 
 header nav ul {
   display: flex;
+  gap: 50px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #072454;
+}
+
+/* main */
+/* we-care section */
+.we-care {
+  position: relative;
+}
+.we-care img {
+  position: absolute;
+  transform: scale(1, 0.9);
+  width: 100%;
+}
+
+.we-care .contact-wrapper {
+  position: absolute;
+  color: white;
+  top: 250px;
+  left: 400px;
+  width: 500px;
+}
+
+.we-care .contact-wrapper h1 {
+  font-size: 88px;
+  font-weight: 200;
+  line-height: 1.2;
+}
+.we-care .contact-wrapper h1 span {
+  font-weight: 700;
+}
+
+.we-care .contact-wrapper p {
+  font-size: 18px;
+  padding-right: 90px;
+  line-height: 2;
+  margin-top: 20px;
+}
+
+.we-care .contact-wrapper button {
+  color: #ff3300;
+  margin-top: 50px;
+  border: none;
+  padding: 18px 42px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 30px;
+}
+
+.we-care .dog-header {
+  position: absolute;
+  width: 58%;
+  left: 580px;
+  top: 110px;
 }
