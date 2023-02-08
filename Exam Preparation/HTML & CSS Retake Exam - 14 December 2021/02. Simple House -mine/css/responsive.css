@@ -1,1 +1,77 @@
 /* TODO: Add the responsive styles here */
+@media (max-width: 600px) {
+    /* header */
+    .tm-site-title{
+        font-size: 2.9rem;
+    }
+
+    .tm-site-description{
+        font-size: 1.4rem;
+    }
+    .tm-header-inner{
+        padding: unset;
+    }
+
+    .tm-nav{
+        margin-bottom: 30px;
+    }
+
+    header .col-md-6.col-12{
+        padding-left: 35px;
+    }
+
+    header .tm-nav-ul{
+        padding-left: 200px;
+        font-size: 1.5rem;
+    }
+
+
+    /* main */
+
+    /* header */
+    .tm-section-title{
+        font-size: 3rem;
+        text-align: center;
+        margin: unset;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+
+    .tm-paging-item{
+            font-size: 1.3rem;
+    }
+    ul li .tm-paging-link.active{
+        padding: 15px 50px;
+    }
+
+    .tm-gallery-page{
+        justify-content: center;
+        flex-direction: column;
+        margin: unset;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tm-gallery{
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    .tm-cta-section{
+        width: unset;
+    }
+
+    .row{
+        margin-right: unset;
+        margin-left: unset;
+    }
+
+    .tm-gallery-title{
+        font-size: 1.6rem;
+    }
+
+    .tm-gallery-description{
+        font-size: 1.2rem;
+    }
+}
