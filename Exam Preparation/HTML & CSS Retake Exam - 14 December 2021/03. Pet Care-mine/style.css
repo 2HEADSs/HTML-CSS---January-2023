@@ -42,6 +42,7 @@ header nav ul li a {
 /* we-care section */
 .we-care {
   position: relative;
+  height: 900px;
 }
 .we-care img {
   position: absolute;
@@ -88,4 +89,64 @@ header nav ul li a {
   width: 58%;
   left: 580px;
   top: 110px;
+}
+
+/* service */
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.service h2 {
+  font-size: 50px;
+}
+
+.service > p {
+  text-align: center;
+  padding: 0px 650px;
+  line-height: 1.9;
+  color: #919193;
+}
+
+.service .extra-wrapper {
+  display: flex;
+  margin: 0 300px;
+  gap: 24px;
+}
+
+.service .extra-wrapper article {
+  margin-top: 80px;
+  margin-bottom: 180px;
+  padding: 70px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid  #ff3300;
+  border-width: thin;
+  border-radius: 10px;
+
+}
+.service .extra-wrapper article .img-wrapper {
+  /* margin: 70px 0px; */
+  width: 50%;
+  height: 160px;
+  width: 170px;
+  background-image: url(images/service-bg.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service .extra-wrapper article h4 {
+  font-size: 28px;
+}
+
+.service .extra-wrapper article p {
+  line-height: 1.8;
+  color: #919193;
+  padding: 10px 40px;
 }
