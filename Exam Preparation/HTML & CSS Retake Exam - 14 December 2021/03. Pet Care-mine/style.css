@@ -97,6 +97,7 @@ header nav ul li a {
   flex-direction: column;
   align-items: center;
   margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .service h2 {
@@ -124,10 +125,9 @@ header nav ul li a {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border: 1px solid  #ff3300;
+  border: 1px solid #ff3300;
   border-width: thin;
   border-radius: 10px;
-
 }
 .service .extra-wrapper article .img-wrapper {
   /* margin: 70px 0px; */
@@ -149,4 +149,50 @@ header nav ul li a {
   line-height: 1.8;
   color: #919193;
   padding: 10px 40px;
+}
+
+/* kitten */
+.kitten {
+  display: flex;
+  margin: 0px 300px;
+  gap: 70px;
+}
+
+.kitten .kitten__content {
+  padding: 100px 120px 0px 40px;
+}
+
+.kitten .kitten__content h2 {
+  font-size: 56px;
+  line-height: 1.2;
+  font-weight: 300;
+}
+.kitten .kitten__content h2 span {
+  font-weight: 700;
+}
+
+.kitten .kitten__content p {
+  color: #919193;
+  font-size: 18px;
+  line-height: 1.5;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+
+.kitten .kitten__content button {
+  background-image: linear-gradient(
+    to right,
+    #f14233,
+    #f1492c,
+    #f05023,
+    #ef571a,
+    #ee5e0d
+  );
+  color: white;
+  margin-top: 50px;
+  border: none;
+  padding: 18px 62px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 30px;
 }
