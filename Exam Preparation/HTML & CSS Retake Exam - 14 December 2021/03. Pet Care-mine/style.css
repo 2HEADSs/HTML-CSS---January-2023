@@ -21,9 +21,10 @@ button {
 /* header */
 header {
   display: flex;
+  align-items: center;
   padding: 30px 370px 0px 370px;
   justify-content: space-between;
-  height: 100px;
+  height: 70px;
 }
 
 header nav ul {
@@ -251,4 +252,35 @@ header nav ul li a {
 .anipat .contact .contact-info p span{
   font-weight: 600;
   margin-left: 10px;
+}
+
+/* bottom */
+
+.bottom{
+  margin:  150px 250px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.bottom article:not(:nth-child(1)){
+  margin-right: 80px;
+}
+
+.bottom .contact-us h4{
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.bottom .contact-us p{
+  color: #919193;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.bottom .contact-us img{
+  margin-bottom: 50px;
+}
+.bottom article:last-child p{
+  width: 300px;
 }
