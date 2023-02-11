@@ -1,18 +1,59 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
 
+/* header */
 header{
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding: 10px 100px;
-    height: 300px;
+    padding: 20px 130px;
+    height: 200px;
+    font-size: 22px;
+    color: #4e5771;
 }
 
 header img{
     background-image: linear-gradient(to bottom, #c8ac53, #ba9a43, #ac8933, #9e7824, #906713);
-    height: 250px;
+    height: 200px;
     padding: 30px;  
     z-index: 1;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
+.nav-wrapper{
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav-wrapper ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-wrapper ul li {
+    text-align: center;
+}
+.nav-wrapper ul li:hover{
+
+}
+.nav-wrapper ul li i{
+    font-size: 34px;
+}
+/* main */
+/* transports */
+
+.transport{
+    height: 900px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.transport img{
+    /* width: 100%; */
+    /* transform: translateY(-10%); */
+    transform: scale(1.27);
+
+}
