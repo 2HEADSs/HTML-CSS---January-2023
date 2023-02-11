@@ -1,0 +1,18 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    height: 300px;
+}
+
+header img{
+    background-image: linear-gradient(to bottom, #c8ac53, #ba9a43, #ac8933, #9e7824, #906713);
+    height: 250px;
+    padding: 30px;  
+    z-index: 1;
+    margin-top: 100px;
+}
+
