@@ -59,25 +59,13 @@
   /*footer*/
 
   .site-footer .wrapper {
-    width: 100%;
+    width: 90%;
     display: grid;
-    grid-template-areas: {
-        'about about'
-        'sitemap contacts';
-    }
-
-}
-    .about{
-        grid-area: about;
-    }
-
-    .sitemap{
-        grid-area: sitemap;
-    }
-
-    .contacts{
-        grid-area: contacts;
-
-    }
-    
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "about about";
+  }
+  .about{
+    grid-area: about;
+  }
 }
