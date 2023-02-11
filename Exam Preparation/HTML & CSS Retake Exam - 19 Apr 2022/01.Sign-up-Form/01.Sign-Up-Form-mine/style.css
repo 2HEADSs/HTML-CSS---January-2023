@@ -13,8 +13,8 @@ body {
 }
 section {
   position: relative;
-  width: 900px;
-  height: 500px;
+  width: 800px;
+  height: 450px;
   margin: 100px auto;
   display: flex;
   border-radius: 4px;
@@ -35,6 +35,8 @@ section div img {
   width: 100%;
   filter: brightness(30%);
   z-index: -1;
+  transform: scale(2);
+  object-fit: fill;
 }
 
 section div p {
