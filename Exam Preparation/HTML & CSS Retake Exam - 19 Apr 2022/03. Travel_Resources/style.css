@@ -27,7 +27,6 @@ header img {
 }
 
 .nav-wrapper {
-  width: 1500px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -52,11 +51,17 @@ header img {
 /* transports */
 
 .transport {
-  width: 100%;
-  height: 600px;
+  height: 750px;
   background-image: url("image/slider.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  transform: scale(1.2);
+
+  background-size: 125%;
   overflow: hidden;
+}
+
+/* cards */
+
+.cards{
+  background-image: linear-gradient(to right, #95660a, #a47717, #b38824, #c29a30, #d0ac3c);
 }
