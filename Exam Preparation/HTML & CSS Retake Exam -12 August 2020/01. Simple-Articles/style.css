@@ -28,6 +28,10 @@ article {
 .included {
   padding: 40px;
   background-color: #e3f3fd;
+  border-radius: 12px;
+  box-shadow: 0px 1px 5px 1px rgba(148, 142, 142, 0.75);
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(148, 142, 142, 0.75);
+  -moz-box-shadow: 0px 1px 5px 1px rgba(148, 142, 142, 0.75);
 }
 
 .included h2 {
@@ -45,46 +49,45 @@ article {
 }
 
 .included p i {
-color: #4aacf8;
-margin-right: 10px;
-font-size: 26px;
+  color: #4aacf8;
+  margin-right: 10px;
+  font-size: 26px;
 }
-
 
 /* tax article */
 
-.tax{
-    border: 5px solid #44a9f8;
-    border-radius: 6px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.tax {
+  border: 5px solid #44a9f8;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.tax h2{
-    font-family: "Lato", sans-serif;
-    color: #4aacf8;
-    font-size: 38px;
-    margin: unset;
+.tax h2 {
+  font-family: "Lato", sans-serif;
+  color: #4aacf8;
+  font-size: 38px;
+  margin: unset;
 }
 
-.tax h2 span{
+.tax h2 span {
   color: #414f60;
   font-size: 22px;
 }
 
-.tax h5{
-    color: #414f60;
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
+.tax h5 {
+  color: #414f60;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
 }
 
-.tax button{
-    color: white;
-    background-color: #4aacf8;
-    border: none;
-    border-radius: 6px;
-    padding: 10px 50px;
+.tax button {
+  color: white;
+  background-color: #4aacf8;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 50px;
 }
