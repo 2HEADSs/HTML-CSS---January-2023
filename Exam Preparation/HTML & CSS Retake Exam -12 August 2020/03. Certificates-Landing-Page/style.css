@@ -10,27 +10,9 @@ font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif;
 */
 
+
 /* header */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Montserrat", sans-serif;
-}
-
-p {
-  font-family: "Lato", sans-serif;
-}
-
 header {
-  z-index: 1;
-  position: absolute;
-  background-color: white;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,135 +20,31 @@ header {
   margin: 0 auto;
   /* background-color: red; */
   border-radius: 0px 0px 8px 8px;
-  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
   padding: 20px 30px;
 }
 
-header img {
-  width: 180px;
+header img{
+width: 200px;
 }
 
-header nav ul {
-  display: flex;
-  gap: 20px;
-  align-items: center;
+header nav ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
-header nav ul li a {
-  text-decoration: none;
-  color: #54606f;
-  font-size: 24px;
+header nav ul li a{
+    text-decoration: none;
+    color: #54606f;
+    font-size: 20px;
 }
 
 nav ul li:last-child {
-  background-color: #42abf8;
-  border-radius: 100%;
-  padding: 10px;
+    background-color: #42abf8;
+    border-radius: 100%;
+    padding: 10px;
 }
 nav ul li:last-child a {
-  color: white;
-}
-
-/* main */
-
-/* sertificates */
-.sertificates {
-  position: relative;
-  height: 700px;
-}
-
-.sertificates::before {
-  content: "";
-  background-image: url("./images/hero-certificates.jpg");
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.1;
-}
-
-.sertificates article {
-  margin: 200px 190px 150px 190px;
-  position: absolute;
-  display: flex;
-  gap: 10px;
-  justify-content: space-between;
-}
-
-.sertificates .web-content {
-  background-color: #29394b;
-  width: 65%;
-  color: white;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-.sertificates .web-content h2 {
-  font-size: 36px;
-  margin-bottom: 10px;
-  font-weight: 500;
-}
-
-.sertificates .web-content p {
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-.sertificates .img-wrapper {
-  display: flex;
-  align-items: flex-end;
-}
-
-.img-wrapper img:first-child {
-  height: 310px;
-  width: auto;
-}
-
-.img-wrapper img:last-child {
-  height: 350px;
-  width: auto;
-}
-
-.sertificates > p {
-  position: absolute;
-  z-index: 1;
-  bottom: 40px;
-  margin-left: 190px;
-  color: #54606f;
-  font-size: 24px;
-}
-
-/* diploma */
-
-.diploma {
-  display: flex;
-  flex-direction: column;
-  margin: 150px 100px;
-  align-items: center;
-}
-.diploma h2 {
-  color: #54606f;
-  font-size: 36px;
-  font-weight: 500;
-  margin-bottom: 30px;
-}
-
-.diploma .info {
-  background-color: #f4f5f7;
-  font-size: 24px;
-  color: #54606f;
-  padding: 30px 30px 50px 30px;
-}
-
-.diploma .info p {
-  margin-bottom: 30px;
-}
-
-.diploma p {
-  align-self: flex-start;
-  margin-top: 20px;
-  font-size: 24px;
-  color: #54606f;
+    color: white;
 }
