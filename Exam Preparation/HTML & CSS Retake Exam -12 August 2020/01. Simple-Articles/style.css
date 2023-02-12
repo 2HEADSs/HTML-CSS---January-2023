@@ -1,0 +1,90 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap%27");
+
+/* 
+•	Use font 'Montserrat' for the heading and the price element
+•	Use font 'Lato' for the text
+•	The site should open correctly in the latest version of Chrome
+•	Pixel-perfect implementation is NOT required
+
+
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+ */
+
+section {
+  margin: 250px auto;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+article {
+  width: 40%;
+}
+
+/* included article  */
+
+.included {
+  padding: 40px;
+  background-color: #e3f3fd;
+}
+
+.included h2 {
+  margin-top: unset;
+  font-family: "Lato", sans-serif;
+  color: #414f60;
+  font-size: 38px;
+}
+
+.included p {
+  color: #414f60;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.included p i {
+color: #4aacf8;
+margin-right: 10px;
+font-size: 26px;
+}
+
+
+/* tax article */
+
+.tax{
+    border: 5px solid #44a9f8;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tax h2{
+    font-family: "Lato", sans-serif;
+    color: #4aacf8;
+    font-size: 38px;
+    margin: unset;
+}
+
+.tax h2 span{
+  color: #414f60;
+  font-size: 22px;
+}
+
+.tax h5{
+    color: #414f60;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tax button{
+    color: white;
+    background-color: #4aacf8;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 50px;
+}
