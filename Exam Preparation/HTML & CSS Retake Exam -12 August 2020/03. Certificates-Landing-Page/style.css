@@ -58,13 +58,24 @@ header nav ul li a {
   font-size: 24px;
 }
 
-nav ul li:last-child {
+header nav ul li:last-child {
   background-color: #42abf8;
+  box-shadow: 0px 3px 10px 0px rgba(66, 171, 248, 0.75);
   border-radius: 100%;
   padding: 10px;
 }
-nav ul li:last-child a {
+header nav ul li:last-child a {
   color: white;
+}
+
+.top {
+    width: 120px;
+    height: 4px;
+    border: 3px solid #4baff8;
+    position: absolute;
+    left: 74%;
+    top: 0px;
+    z-index: 10;
 }
 
 /* main */
@@ -170,3 +181,116 @@ nav ul li:last-child a {
   font-size: 24px;
   color: #54606f;
 }
+
+/* explore */
+
+.explore {
+  margin-left: 50%;
+  transform: translate(-50%);
+  width: 80%;
+}
+
+.explore img {
+    border-radius: 10px;
+    width: 100%;
+    filter: brightness(40%);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
+}
+
+.explore__wrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  top: 20px;
+  align-items: center;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.explore__wrapper h2 {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.explore__wrapper p {
+  font-size: 20px;
+  text-align: center;
+  width: 1000px;
+}
+
+.btn-wrapper {
+  margin-top: 50px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.btn-wrapper .divider {
+  height: 30px;
+  border: 1px solid white;
+}
+
+.btn-wrapper button {
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.btn-wrapper button:first-child {
+  color: #42abf8;
+  border: none;
+}
+
+.btn-wrapper button:last-child {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.explore {
+  padding-bottom: 100px;
+  border-bottom: 1px solid black;
+}
+
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 30px auto;
+    /* background-color: red; */
+    padding: 20px 30px;
+}
+footer .logo-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+footer .logo-wrapper p{
+    color: #a3a6a9;
+
+}
+
+footer img {
+    width: 180px;
+  }
+  
+  footer nav ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  footer nav ul li a {
+    text-decoration: none;
+    color: #54606f;
+    font-size: 24px;
+  }
