@@ -126,7 +126,8 @@ header img {
   background-color: transparent;
   border: 2px solid white;
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
   font-size: 24px;
   padding: 10px 28px;
 }
@@ -147,7 +148,7 @@ header img {
   font-weight: 300;
   color: #4e5679;
 }
-.benefits p{
+.benefits p {
   font-size: 24px;
 }
 
@@ -157,8 +158,6 @@ header img {
   text-align: center;
   gap: 20px;
 }
-
-
 
 .benefits__img-wrapper figure {
   display: flex;
@@ -176,8 +175,47 @@ header img {
   width: 250px;
   margin-bottom: 30px;
 }
-.benefits__img-wrapper figure figcaption{
+.benefits__img-wrapper figure figcaption {
   width: 250px;
 }
 
- 
+/* subscribe */
+
+footer .subscribe {
+  background-image: linear-gradient(
+    to left,
+    #95660a,
+    #a47717,
+    #b38824,
+    #c29a30,
+    #d0ac3c
+  );
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  align-self: flex-end;
+}
+
+footer .newsletter-wrapper h4 {
+  font-size: 28px;
+}
+
+footer .newsletter-wrapper p {
+  font-size: 20px;
+}
+
+footer .subscribe button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  font-size: 24px;
+  padding: 10px 28px;
+}
+
+footer>p {
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 20px;
+}
