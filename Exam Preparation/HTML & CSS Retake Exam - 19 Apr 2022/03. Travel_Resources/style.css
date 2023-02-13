@@ -1,5 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
-body{
+body {
   font-family: Helvetica, sans-serif;
 }
 /* header */
@@ -62,8 +62,8 @@ header img {
   overflow: hidden;
 }
 
-.transport-info{
-  background-color: rgba(0,0,0,.5);
+.transport-info {
+  background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
   width: 560px;
   margin-top: 250px;
@@ -71,31 +71,37 @@ header img {
   padding: 30px;
 }
 
-.transport-info h2{
+.transport-info h2 {
   font-size: 28px;
   letter-spacing: 1px;
   margin-bottom: 30px;
 }
 
-.transport-info p{
-font-size: 20px;
-margin-bottom: 30px;
+.transport-info p {
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 
-.transport-info button{
-color: #f8a303;
-background-color: transparent;
-font-size: 32px;
-border: 4px solid white;
+.transport-info button {
+  color: #f8a303;
+  background-color: transparent;
+  font-size: 32px;
+  border: 4px solid white;
 }
-
 
 /* cards */
 
-.cards{
+.cards {
   /* width: 600px; */
   margin: 0 auto;
-  background-image: linear-gradient(to right, #95660a, #a47717, #b38824, #c29a30, #d0ac3c);
+  background-image: linear-gradient(
+    to right,
+    #95660a,
+    #a47717,
+    #b38824,
+    #c29a30,
+    #d0ac3c
+  );
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,25 +109,75 @@ border: 4px solid white;
   align-items: center;
 }
 
-.card__extras-wrapper{
+.card__extras-wrapper {
   width: 650px;
 }
 
-.cards h2{
-margin: 20px auto;
-font-size: 28px;
+.cards h2 {
+  margin: 20px auto;
+  font-size: 28px;
 }
-.card__extras-wrapper p{
-font-size: 22px;
-margin-bottom: 12px;
+.card__extras-wrapper p {
+  font-size: 22px;
+  margin-bottom: 12px;
 }
 
-.cards button{
+.cards button {
   background-color: transparent;
   border: 2px solid white;
   color: white;
   margin-bottom: 20px;
   font-size: 24px;
   padding: 10px 28px;
-
 }
+
+/* benefits */
+
+.benefits {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.benefits h1 {
+  font-size: 48px;
+  font-weight: 300;
+  color: #4e5679;
+}
+.benefits p{
+  font-size: 24px;
+}
+
+.benefits__img-wrapper {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  gap: 20px;
+}
+
+
+
+.benefits__img-wrapper figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  align-self: flex-start;
+}
+
+.benefits__img-wrapper figure img {
+  padding: 2px;
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 250px;
+  margin-bottom: 30px;
+}
+.benefits__img-wrapper figure figcaption{
+  width: 250px;
+}
+
+ 
