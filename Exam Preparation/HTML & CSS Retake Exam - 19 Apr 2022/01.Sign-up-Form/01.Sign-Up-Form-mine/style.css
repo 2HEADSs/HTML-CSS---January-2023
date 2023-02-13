@@ -35,8 +35,7 @@ section div img {
   width: 100%;
   filter: brightness(30%);
   z-index: -1;
-  transform: scale(2);
-  object-fit: fill;
+  object-fit: cover;
 }
 
 section div p {
