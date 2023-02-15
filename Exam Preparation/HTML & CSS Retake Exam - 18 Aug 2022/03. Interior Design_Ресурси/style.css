@@ -64,3 +64,8 @@ header .name p {
 }
 
 /* main */
+
+main {
+  width: 70%;
+  background-color: #f2f0f3;
+}
