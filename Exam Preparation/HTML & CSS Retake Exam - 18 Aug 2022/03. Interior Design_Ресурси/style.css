@@ -1,4 +1,13 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@100;300;700&display=swap");
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+h1,h2,h3,h4,h5 {
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 3px;
+}
 
 body {
   width: 70%;
@@ -64,8 +73,111 @@ header .name p {
 }
 
 /* main */
+main{
+    display: flex;
+}
 
-main {
+.main {
   width: 70%;
   background-color: #f2f0f3;
+  
+}
+.main .services {
+  padding: 30px 70px;
+}
+
+.main h1 {
+  font-size: 42px;
+  text-transform: uppercase;
+  margin: 40px 0px;
+}
+
+.services p {
+  font-size: 22px;
+  margin-bottom: 26px;
+}
+.services p span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.services p span i {
+  margin-right: 10px;
+}
+
+.contact {
+  margin-top: 80px;
+}
+
+.contact h1 {
+  border-bottom: 1px solid black;
+  padding-left: 70px;
+}
+
+.contact .contact-wrapper {
+    display: grid;
+    margin-top: 30px;
+    padding-left: 70px;
+    font-size: 20px;
+    margin-bottom: 35px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: unset;
+}
+
+.contact .contact-wrapper p{
+    width: 200px;
+}
+
+.contact .contact-wrapper p span{
+    font-weight: bold;
+}
+
+.contact .register-wrapper{
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+
+.contact .register-wrapper input{
+    background-color: #bab1ad ;
+    padding: 10px 110px 10px 10px;
+}
+
+.contact .register-wrapper input,
+.contact .register-wrapper button{
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.contact .register-wrapper button{
+    background-color: #67784d ;
+    padding: 10px 30px;
+}
+
+/* aside */
+aside{
+    width: 30%;
+    background-color: #bab1ad;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 90px 70px 30px;
+    gap: 180px;
+}
+
+aside .data h1{
+    color: white;
+    font-size: 88px;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    line-height: 1;
+}
+
+
+aside .data p{
+    text-transform: uppercase;
+    font-weight: 22px;
 }
