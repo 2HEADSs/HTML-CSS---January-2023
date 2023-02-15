@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+
 body {
   width: 70%;
   margin: 0 auto;
@@ -56,7 +58,9 @@ header .name p {
   padding: 20px 10px;
 }
 
-.header__info__content{
-    color: white;
-    font-size: 22px;
+.header__info__content {
+  color: white;
+  font-size: 22px;
 }
+
+/* main */
