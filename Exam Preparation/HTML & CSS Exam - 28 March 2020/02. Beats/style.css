@@ -80,39 +80,39 @@ header nav ul li a {
   width: 40%;
   padding-right: 160px;
 }
-.performance .performance__power h2{
+.performance .performance__power h2 {
   text-transform: uppercase;
   font-size: 80px;
   font-weight: 100;
 }
 
-.performance .performance__power>h4{
+.performance .performance__power > h4 {
   padding-right: 100px;
   text-align: end;
   font-size: 26px;
 }
-.performance .performance__power>h4 span{
+.performance .performance__power > h4 span {
   font-weight: 100;
 }
 
-.performance .performance__power p{
+.performance .performance__power p {
   margin-top: 100px;
   font-size: 22px;
   text-align: start;
 }
 
-.performance .performance__power .buy{
+.performance .performance__power .buy {
   margin-top: 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.buy h4{
+.buy h4 {
   font-size: 64px;
 }
 
-.buy button{
+.buy button {
   background-color: #ff0000;
   color: white;
   border: none;
@@ -123,7 +123,6 @@ header nav ul li a {
   padding: 20px 72px;
 }
 
-
 .performance img {
   width: 30%;
   height: auto;
@@ -131,14 +130,14 @@ header nav ul li a {
 
 /* free */
 
-.free{
+.free {
   background-color: #575757;
   text-align: center;
   color: white;
   padding-bottom: 40px;
 }
 
-.free article{
+.free article {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,20 +145,61 @@ header nav ul li a {
   gap: 50px;
 }
 
-.free article h2{
+.free article h2 {
   font-size: 48px;
   font-weight: 100;
   text-transform: uppercase;
 }
 
-.free article h2 span{
+.free article h2 span {
   font-weight: 600;
 }
 
-.free  a{
+.free a {
   font-size: 38px;
   text-transform: uppercase;
   border-bottom: 1.5px solid white;
   padding-bottom: 8px;
   font-weight: bold;
+}
+
+/* girl */
+.girl {
+  display: flex;
+  color: #333333;
+}
+.girl > * {
+  width: 50%;
+}
+
+.girl .life {
+  background-color: #dadada;
+  display: flex;
+  padding: 70px 30px 40px 100px;
+}
+
+.girl .life h2{
+  text-transform: uppercase;
+  font-size: 190px;
+  letter-spacing: -20px;
+  line-height: 200px;
+
+}
+
+.girl .life h6{
+  font-size: 80px;
+  color: #333;
+  font-weight: 100;
+  letter-spacing: -8px;
+}
+
+.girl .life h6 span{
+  color: red;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.life img{
+  height: auto;
+  width: 50%;
 }
