@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* header */
+
+header{
+    height: 200px;
+    padding-top: 30px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 180px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #a0a0a0;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
