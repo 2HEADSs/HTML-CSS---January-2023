@@ -82,7 +82,7 @@ header nav ul li a {
 }
 .performance .performance__power h2 {
   text-transform: uppercase;
-  font-size: 90px;
+  font-size: 120px;
   font-weight: 100;
   text-align: end;
 
@@ -91,7 +91,7 @@ header nav ul li a {
 .performance .performance__power > h4 {
   /* padding-right: 100px; */
   text-align: end;
-  font-size: 32px;
+  font-size: 42px;
 }
 .performance .performance__power > h4 span {
   font-weight: 100;
@@ -106,8 +106,9 @@ header nav ul li a {
 .performance .performance__power .buy {
   margin-top: 150px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
+  gap: 20px;
 }
 
 .buy h4 {
