@@ -128,3 +128,38 @@ header nav ul li a {
   width: 30%;
   height: auto;
 }
+
+/* free */
+
+.free{
+  background-color: #575757;
+  text-align: center;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.free article{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 50px;
+}
+
+.free article h2{
+  font-size: 48px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.free article h2 span{
+  font-weight: 600;
+}
+
+.free  a{
+  font-size: 38px;
+  text-transform: uppercase;
+  border-bottom: 1.5px solid white;
+  padding-bottom: 8px;
+  font-weight: bold;
+}
