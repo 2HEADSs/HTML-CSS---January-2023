@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;600;700&display=swap");
 body {
   font-family: "Gelasio", serif;
-  margin: 0 auto;
 }
 
+/* header */
 header {
   width: 100%;
   position: absolute;
@@ -25,7 +25,8 @@ header img {
   align-items: center;
   gap: 30px;
 }
-
+/* main */
+/* start */
 .start-now {
   position: relative;
   height: 750px;
@@ -48,16 +49,100 @@ header img {
   align-items: center;
 }
 .start-wrapper h1 {
-  font-family: "Poppins", sans-serif;
   font-size: 80px;
   text-shadow: 2px 2px #131212;
 }
 
-.start-wrapper button{
-    background-color: #146594;
-    border: none;
-    color: white;
-    padding: 6px 10px;
-    border-radius: 8px;
-    font-size: 18px;
+.start-wrapper button {
+  background-color: #146594;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+/* articles */
+.articles {
+  background-color: #e1e1e1;
+  padding: 50px 200px;
+}
+.articles h2 {
+  font-size: 42px;
+  color: #5f6467;
+}
+
+.articles article {
+  margin-top: 30px;
+  display: flex;
+  height: 700px;
+  overflow: hidden;
+}
+
+.left {
+  position: relative;
+  width: 40%;
+  overflow: hidden;
+}
+
+.left h3 {
+  width: 100%;
+  position: absolute;
+  color: white;
+  top: 50px;
+  text-align: center;
+  font-size: 34px;
+  text-shadow: 2px 2px #131212;
+  z-index: 2;
+}
+
+.left img {
+  position: absolute;
+  top: -90px;
+}
+
+.right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.right > * {
+  height: 50%;
+  position: relative;
+}
+
+.right .upper h3 {
+  position: absolute;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 34px;
+  text-shadow: 2px 2px #131212;
+  z-index: 2;
+}
+
+.upper img {
+  position: absolute;
+  top: -110px;
+}
+.right .bottom{
+    overflow: hidden;
+}
+
+.right .bottom h3 {
+  position: absolute;
+  bottom: 20px;
+  padding: 10px;
+  color: white;
+  width: 100%;
+  font-size: 34px;
+  text-shadow: 2px 2px #131212;
+  z-index: 2;
+}
+
+.bottom img {
+  position: absolute;
+  top: -110px;
 }
