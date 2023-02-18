@@ -1,28 +1,63 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;600;700&display=swap");
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Gelasio", serif;
   margin: 0 auto;
 }
 
-header{
-    width: 100%;
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: 60px;
-    color: #7f8181;
-    padding: 0 20px;
-    top: 30px;
+header {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 60px;
+  color: #7f8181;
+  padding: 0 20px;
+  top: 30px;
+  z-index: 1000;
 }
-header img{
-    height: 100%;
+header img {
+  height: 100%;
 }
-.heder__log-in{
-    display: flex;
-    align-items: center;
-    gap: 30px;
+.heder__log-in {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
+.start-now {
+  position: relative;
+  height: 750px;
+  overflow: hidden;
+}
+.start-now img {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.start-wrapper {
+  width: 100%;
+  position: absolute;
+  top: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+}
+.start-wrapper h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 80px;
+  text-shadow: 2px 2px #131212;
+}
+
+.start-wrapper button{
+    background-color: #146594;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-size: 18px;
+}
