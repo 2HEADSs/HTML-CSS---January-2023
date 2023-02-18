@@ -1,0 +1,19 @@
+/* 
+* **width <= 768x**
+* **width <= 414px**
+*/
+
+@media (max-width:768px) {
+
+
+    .main-movie-poster img{
+        display: none;
+    }
+
+    .main-movie ul li{
+        padding: unset;
+    }
+    iframe{
+        padding: 20px 50px;
+    }
+}
