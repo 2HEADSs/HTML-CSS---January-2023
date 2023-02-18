@@ -127,8 +127,8 @@ header img {
   position: absolute;
   top: -110px;
 }
-.right .bottom{
-    overflow: hidden;
+.right .bottom {
+  overflow: hidden;
 }
 
 .right .bottom h3 {
@@ -146,3 +146,31 @@ header img {
   position: absolute;
   top: -110px;
 }
+
+/* footer */
+
+footer {
+  background-color: #8c8c8c;
+  color: #bdbdbd;
+  display: flex;
+  padding: 40px 160px;
+  font-size: 24px;
+  justify-content: space-between;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+}
+
+footer ul li a{
+    padding-right: 10px;
+    padding-left: 16px;
+}
+
+footer ul li:not(:last-child) {
+    border-right: 1px solid #bdbdbd;
+
+}
+
+
